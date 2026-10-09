@@ -1,0 +1,42 @@
+Aligned 8/64 raw events
+Aligned 16/64 raw events
+Aligned 24/64 raw events
+Aligned 32/64 raw events
+Aligned 40/64 raw events
+Aligned 48/64 raw events
+Aligned 56/64 raw events
+Aligned 64/64 raw events
+VÄNERSBORG FULL PIPELINE EXECUTED SUMMARY
+=========================================
+Raw events: 64
+Aligned shape: (64, 256, 12)
+Documented crack record: 2023_03_09T23_45_25.csv
+Truth zone: Z05_SG9_SG10
+
+QR selection
+------------
+Energy target: 99.90%
+Selected rank: 5
+References: SG11, SG3, SG1, SG13, SG10
+Virtual/withheld gauges: SG2, SG7, SG8, SG9, SG14, SG15, SG16
+
+Blind virtual-sensor validation
+-------------------------------
+Median NRMSE: 1.54% of measured peak-to-peak
+Median correlation: 0.9991
+Median amplitude ratio: 1.0008
+
+Primary three-way comparison
+----------------------------
+                  configuration  detected_of_7  SG9_SG10_top_zone_of_7  joint_detect_and_localise_of_7
+          Physical sensors only              7                       7                               7
+    Reduced QR physical sensors              2                       7                               2
+QR references + virtual sensors              7                       7                               7
+
+Interpretation boundary
+-----------------------
+The virtual gauges are data-driven reconstructions learned exclusively from historical healthy
+full-array measurements. They are not FE-generated sensors and they do not add independent
+information beyond the physical references. The primary experiment asks whether historical
+full-array calibration can preserve localisation after permanent sensor reduction.
+

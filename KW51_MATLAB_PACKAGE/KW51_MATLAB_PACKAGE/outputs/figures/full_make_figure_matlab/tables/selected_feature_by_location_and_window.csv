@@ -1,0 +1,11 @@
+display_location_number,zone_name,location_label,n_passages,feature,feature_label,source_table
+1,diagonal_A_11,"A11 diagonal",16,rms_p2p_gram,RMS/P2P + normalised Gram,tables/retained_location_trials.csv
+1,diagonal_A_11,"A11 diagonal",32,rms_p2p_gram,RMS/P2P + normalised Gram,tables/retained_location_trials.csv
+2,diagonal_A_14,"A14 diagonal",16,qr_hybrid_16,QR hybrid (16),tables/retained_location_trials.csv
+2,diagonal_A_14,"A14 diagonal",32,qr_hybrid_16,QR hybrid (16),tables/retained_location_trials.csv
+3,main_girder_A_X012,"Main girder A, x=11.6 m",16,area_gram_dct8,Area + Gram + DCT8,tables/retained_location_trials.csv
+3,main_girder_A_X012,"Main girder A, x=11.6 m",32,rms_p2p_gram_dct16,RMS/P2P + Gram + DCT16,tables/retained_location_trials.csv
+4,main_girder_C_X084,"Main girder C, x=83.7 m",16,absolute_rms_p2p_gram,Absolute RMS/P2P + Gram,tables/retained_location_trials.csv
+4,main_girder_C_X084,"Main girder C, x=83.7 m",32,absolute_rms_p2p_gram,Absolute RMS/P2P + Gram,tables/retained_location_trials.csv
+5,main_girder_C_X108,"Main girder C, x=107.6 m",16,rms_p2p_gram_dct8,RMS/P2P + Gram + DCT8,tables/retained_location_trials.csv
+5,main_girder_C_X108,"Main girder C, x=107.6 m",32,rms_p2p_gram_dct8,RMS/P2P + Gram + DCT8,tables/retained_location_trials.csv

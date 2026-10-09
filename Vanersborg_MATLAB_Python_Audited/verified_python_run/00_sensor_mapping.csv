@@ -1,0 +1,13 @@
+raw_channel,gauge,role
+ch_1,SG1,usable strain
+ch_2,SG2,usable strain
+ch_3,SG3,usable strain
+ch_7,SG7,usable strain
+ch_8,SG8,usable strain
+ch_9,SG9,usable strain
+ch_10,SG10,usable strain
+ch_11,SG11,usable strain
+ch_13,SG13,usable strain
+ch_14,SG14,usable strain
+ch_15,SG15,usable strain
+ch_16,SG16,usable strain

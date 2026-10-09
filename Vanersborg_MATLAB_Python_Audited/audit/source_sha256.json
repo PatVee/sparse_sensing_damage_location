@@ -1,0 +1,12 @@
+{
+  "README.md": "9e094d89589d58dfc2f9eda2a351a4420d78a45912f9adf5ff4c76c6c7885e24",
+  "prepare_octave_audit.py": "5b06f45828f4b16a2a163eef9a4f99009d60152eb3c88bf4341354fc448d9897",
+  "audit_vanersborg_octave.m": "371cd4a5ff16dd3c520c107d9eab87c2523b180735ede4f419f6b2df2a25e62d",
+  "compare_octave_audit.py": "0ce0b2aba8f1120ac2cfe52d5a4351473bfadb59ff31a1ad51ff1cf6a77d9dc3",
+  "vanersborg_full_pipeline.m": "b6189a56c60df019b2605f8a5cd14162de648f372cd4346edd0b97a5b2308f6d",
+  "vanersborg_full_pipeline_from_zip.py": "fb5c46c1dcbbf30d6b51bfbdfd4746ceb21d93df1aac676c62eee83f8ab5c9d3",
+  "vanersborg_full_pipeline_from_zip.m": "2f0cb66794c2538300ff8f00967f40af756421c51e34bea20acce188c3f247f9",
+  "requirements.txt": "2bb0bf356036acc8420eb84c77a633318a99a6e6aadfda981931220246e49a63",
+  "vanersborg_core.m": "59246af584149da584eb506927750989ee703a944f8a38e5f72b2bd627115495",
+  "AUDIT_REPORT.md": "3866733d522aedf7bb30f37412e6893616d09e5d39b7365647225d3e0b0a6257"
+}

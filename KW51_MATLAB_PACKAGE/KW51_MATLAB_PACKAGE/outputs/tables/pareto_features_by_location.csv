@@ -1,0 +1,952 @@
+n_passages,zone_index,feature,minimum_joint_rate_10_50,joint_rate_10pct,mean_joint_rate_10_50,minimum_detection_rate_10_50,minimum_localisation_rate_10_50,feature_label,robust_rank,is_primary_robust_best,is_pareto_feature
+16,0,area_gram_dct8,0,0,0,0.556666666666667,0,Area + Gram + DCT8,1,1,1
+16,0,qr_hybrid_16,0,0,0,0.533333333333333,0,QR hybrid (16),2,0,1
+16,0,rms_p2p_gram_dct8,0,0,0,0.52,0.00333333333333333,RMS/P2P + Gram + DCT8,3,0,1
+16,0,rms_p2p_gram_dct16,0,0,0,0.476666666666667,0,RMS/P2P + Gram + DCT16,4,0,1
+16,0,signed_dct16,0,0,0,0.316666666666667,0,Signed DCT16,5,0,1
+16,0,strain_gram_dct16,0,0,0,0.31,0,Gram + DCT16,6,0,1
+16,0,qr_hybrid_48,0,0,0,0.166666666666667,0.00666666666666667,QR hybrid (48),7,0,1
+16,0,strain_gram,0,0,0,0.13,0,Normalised strain Gram,8,0,1
+16,0,absolute_rms_p2p_gram,0,0,0,0.11,0,Absolute RMS/P2P + Gram,9,0,1
+16,0,qr_hybrid_32,0,0,0,0.0633333333333333,0,QR hybrid (32),10,0,1
+16,0,qr_hybrid_24,0,0,0,0.0533333333333333,0,QR hybrid (24),11,0,1
+16,0,rms_p2p_gram,0,0,0,0.02,0,RMS/P2P + normalised Gram,12,0,1
+16,0,area_rms_p2p,0,0,0,0.0133333333333333,0,Signed area + RMS/P2P,13,0,1
+16,1,area_gram_dct8,0,0,0,0.536666666666667,0,Area + Gram + DCT8,1,1,1
+16,1,qr_hybrid_16,0,0,0,0.533333333333333,0,QR hybrid (16),2,0,1
+16,1,rms_p2p_gram_dct8,0,0,0,0.493333333333333,0,RMS/P2P + Gram + DCT8,3,0,1
+16,1,rms_p2p_gram_dct16,0,0,0,0.44,0,RMS/P2P + Gram + DCT16,4,0,1
+16,1,signed_dct16,0,0,0,0.3,0,Signed DCT16,5,0,1
+16,1,strain_gram_dct16,0,0,0,0.28,0,Gram + DCT16,6,0,1
+16,1,qr_hybrid_48,0,0,0,0.156666666666667,0,QR hybrid (48),7,0,1
+16,1,strain_gram,0,0,0,0.126666666666667,0,Normalised strain Gram,8,0,1
+16,1,absolute_rms_p2p_gram,0,0,0,0.11,0,Absolute RMS/P2P + Gram,9,0,1
+16,1,qr_hybrid_32,0,0,0,0.0566666666666667,0,QR hybrid (32),10,0,1
+16,1,qr_hybrid_24,0,0,0,0.05,0,QR hybrid (24),11,0,1
+16,1,area_rms_p2p,0,0,0,0.0266666666666667,0,Signed area + RMS/P2P,12,0,1
+16,1,rms_p2p_gram,0,0,0,0.02,0,RMS/P2P + normalised Gram,13,0,1
+16,2,qr_hybrid_24,0.0266666666666667,0.0266666666666667,0.306666666666667,0.0833333333333333,0.103333333333333,QR hybrid (24),1,1,1
+16,2,qr_hybrid_32,0.00333333333333333,0.00333333333333333,0.238666666666667,0.0866666666666667,0.00666666666666667,QR hybrid (32),2,0,1
+16,2,rms_p2p_gram,0,0,0.28,0.0133333333333333,0.02,RMS/P2P + normalised Gram,3,0,1
+16,3,qr_hybrid_32,0.01,0.01,0.141333333333333,0.0666666666666667,0.343333333333333,QR hybrid (32),1,1,1
+16,3,qr_hybrid_24,0.00666666666666667,0.00666666666666667,0.169333333333333,0.0633333333333333,0.403333333333333,QR hybrid (24),2,0,1
+16,3,rms_p2p_gram,0,0,0.242,0.0333333333333333,0.04,RMS/P2P + normalised Gram,4,0,1
+16,3,rms_p2p_gram_dct8,0,0,0.241333333333333,0.52,0.00333333333333333,RMS/P2P + Gram + DCT8,5,0,1
+16,3,area_gram_dct8,0,0,0.24,0.563333333333333,0,Area + Gram + DCT8,6,0,1
+16,4,absolute_rms_p2p_gram,0.01,0.01,0.615333333333333,0.12,0.206666666666667,Absolute RMS/P2P + Gram,1,1,1
+16,4,rms_p2p_gram,0,0,0.8,0.163333333333333,0.14,RMS/P2P + normalised Gram,2,0,1
+16,5,rms_p2p_gram_dct8,0,0,0.609333333333333,0.533333333333333,0,RMS/P2P + Gram + DCT8,1,1,1
+16,5,rms_p2p_gram,0,0,0.6,0.0633333333333333,0,RMS/P2P + normalised Gram,2,0,1
+16,6,qr_hybrid_16,0.183333333333333,0.183333333333333,0.8,0.783333333333333,0.28,QR hybrid (16),1,1,1
+16,6,qr_hybrid_32,0.12,0.12,0.820666666666667,0.18,0.56,QR hybrid (32),2,0,1
+16,6,rms_p2p_gram_dct8,0.0133333333333333,0.0133333333333333,0.802666666666667,0.683333333333333,0.15,RMS/P2P + Gram + DCT8,5,0,1
+16,7,qr_hybrid_16,0.0566666666666667,0.0566666666666667,0.594666666666667,0.71,0.0633333333333333,QR hybrid (16),1,1,1
+16,7,rms_p2p_gram_dct16,0.0166666666666667,0.0166666666666667,0.754666666666667,0.536666666666667,0.06,RMS/P2P + Gram + DCT16,2,0,1
+16,7,rms_p2p_gram_dct8,0.01,0.01,0.788666666666667,0.646666666666667,0.0566666666666667,RMS/P2P + Gram + DCT8,4,0,1
+16,8,rms_p2p_gram,0,0,0.667333333333333,0.0133333333333333,0.09,RMS/P2P + normalised Gram,1,1,1
+16,9,rms_p2p_gram,0,0,0.614,0.02,0.13,RMS/P2P + normalised Gram,1,1,1
+16,10,rms_p2p_gram,0.956666666666667,0.956666666666667,0.991333333333333,0.966666666666667,0.99,RMS/P2P + normalised Gram,1,1,1
+16,11,qr_hybrid_16,0.00666666666666667,0.00666666666666667,0.484666666666667,0.513333333333333,0.0166666666666667,QR hybrid (16),1,1,1
+16,11,strain_gram,0,0,0.796,0.146666666666667,0.0933333333333333,Normalised strain Gram,2,0,1
+16,12,rms_p2p_gram,0,0,0.8,0.03,0.576666666666667,RMS/P2P + normalised Gram,1,1,1
+16,13,qr_hybrid_16,0.603333333333333,0.603333333333333,0.791333333333333,0.603333333333333,0.776666666666667,QR hybrid (16),1,1,1
+16,13,rms_p2p_gram,0,0,0.594,0.0133333333333333,0.0166666666666667,RMS/P2P + normalised Gram,2,0,1
+16,14,qr_hybrid_24,0.0133333333333333,0.0133333333333333,0.216,0.0533333333333333,0.39,QR hybrid (24),1,1,1
+16,14,area_gram_dct8,0,0,0.506,0.523333333333333,0,Area + Gram + DCT8,2,0,1
+16,14,rms_p2p_gram_dct8,0,0,0.447333333333333,0.513333333333333,0,RMS/P2P + Gram + DCT8,3,0,1
+16,14,rms_p2p_gram,0,0,0.4,0.0166666666666667,0,RMS/P2P + normalised Gram,4,0,1
+16,15,rms_p2p_gram,0,0,0.0426666666666667,0,0,RMS/P2P + normalised Gram,1,1,1
+16,16,area_gram_dct8,0,0,0,0.55,0,Area + Gram + DCT8,1,1,1
+16,16,qr_hybrid_16,0,0,0,0.533333333333333,0,QR hybrid (16),2,0,1
+16,16,rms_p2p_gram_dct8,0,0,0,0.516666666666667,0,RMS/P2P + Gram + DCT8,3,0,1
+16,16,rms_p2p_gram_dct16,0,0,0,0.463333333333333,0,RMS/P2P + Gram + DCT16,4,0,1
+16,16,signed_dct16,0,0,0,0.3,0,Signed DCT16,5,0,1
+16,16,strain_gram_dct16,0,0,0,0.29,0,Gram + DCT16,6,0,1
+16,16,strain_gram,0,0,0,0.166666666666667,0,Normalised strain Gram,7,0,1
+16,16,qr_hybrid_48,0,0,0,0.16,0,QR hybrid (48),8,0,1
+16,16,absolute_rms_p2p_gram,0,0,0,0.11,0,Absolute RMS/P2P + Gram,9,0,1
+16,16,qr_hybrid_32,0,0,0,0.0566666666666667,0,QR hybrid (32),10,0,1
+16,16,qr_hybrid_24,0,0,0,0.05,0,QR hybrid (24),11,0,1
+16,16,rms_p2p_gram,0,0,0,0.04,0,RMS/P2P + normalised Gram,12,0,1
+16,16,area_rms_p2p,0,0,0,0.0166666666666667,0,Signed area + RMS/P2P,13,0,1
+16,17,qr_hybrid_16,0,0,0,0.53,0,QR hybrid (16),1,1,1
+16,17,rms_p2p_gram_dct8,0,0,0,0.473333333333333,0,RMS/P2P + Gram + DCT8,2,0,1
+16,17,area_gram_dct8,0,0,0,0.47,0,Area + Gram + DCT8,3,0,1
+16,17,rms_p2p_gram_dct16,0,0,0,0.433333333333333,0,RMS/P2P + Gram + DCT16,4,0,1
+16,17,signed_dct16,0,0,0,0.3,0,Signed DCT16,5,0,1
+16,17,strain_gram_dct16,0,0,0,0.27,0,Gram + DCT16,6,0,1
+16,17,qr_hybrid_48,0,0,0,0.156666666666667,0,QR hybrid (48),7,0,1
+16,17,strain_gram,0,0,0,0.146666666666667,0,Normalised strain Gram,8,0,1
+16,17,absolute_rms_p2p_gram,0,0,0,0.11,0,Absolute RMS/P2P + Gram,9,0,1
+16,17,qr_hybrid_32,0,0,0,0.0566666666666667,0,QR hybrid (32),10,0,1
+16,17,qr_hybrid_24,0,0,0,0.05,0,QR hybrid (24),11,0,1
+16,17,area_rms_p2p,0,0,0,0.02,0,Signed area + RMS/P2P,12,0,1
+16,17,rms_p2p_gram,0,0,0,0.02,0,RMS/P2P + normalised Gram,13,0,1
+16,18,area_gram_dct8,0,0,0,0.56,0,Area + Gram + DCT8,1,1,1
+16,18,qr_hybrid_16,0,0,0,0.533333333333333,0,QR hybrid (16),2,0,1
+16,18,rms_p2p_gram_dct8,0,0,0,0.52,0,RMS/P2P + Gram + DCT8,3,0,1
+16,18,rms_p2p_gram_dct16,0,0,0,0.463333333333333,0,RMS/P2P + Gram + DCT16,4,0,1
+16,18,signed_dct16,0,0,0,0.3,0,Signed DCT16,5,0,1
+16,18,strain_gram_dct16,0,0,0,0.29,0,Gram + DCT16,6,0,1
+16,18,strain_gram,0,0,0,0.17,0,Normalised strain Gram,7,0,1
+16,18,qr_hybrid_48,0,0,0,0.163333333333333,0,QR hybrid (48),8,0,1
+16,18,absolute_rms_p2p_gram,0,0,0,0.11,0,Absolute RMS/P2P + Gram,9,0,1
+16,18,qr_hybrid_32,0,0,0,0.0566666666666667,0,QR hybrid (32),10,0,1
+16,18,qr_hybrid_24,0,0,0,0.05,0,QR hybrid (24),11,0,1
+16,18,rms_p2p_gram,0,0,0,0.04,0,RMS/P2P + normalised Gram,12,0,1
+16,18,area_rms_p2p,0,0,0,0.0266666666666667,0,Signed area + RMS/P2P,13,0,1
+16,19,area_gram_dct8,0,0,0,0.546666666666667,0,Area + Gram + DCT8,1,1,1
+16,19,qr_hybrid_16,0,0,0,0.533333333333333,0,QR hybrid (16),2,0,1
+16,19,rms_p2p_gram_dct8,0,0,0,0.51,0,RMS/P2P + Gram + DCT8,3,0,1
+16,19,rms_p2p_gram_dct16,0,0,0,0.45,0,RMS/P2P + Gram + DCT16,4,0,1
+16,19,signed_dct16,0,0,0,0.3,0,Signed DCT16,5,0,1
+16,19,strain_gram_dct16,0,0,0,0.28,0,Gram + DCT16,6,0,1
+16,19,qr_hybrid_48,0,0,0,0.156666666666667,0,QR hybrid (48),7,0,1
+16,19,strain_gram,0,0,0,0.153333333333333,0,Normalised strain Gram,8,0,1
+16,19,absolute_rms_p2p_gram,0,0,0,0.11,0,Absolute RMS/P2P + Gram,9,0,1
+16,19,qr_hybrid_32,0,0,0,0.0566666666666667,0,QR hybrid (32),10,0,1
+16,19,qr_hybrid_24,0,0,0,0.05,0,QR hybrid (24),11,0,1
+16,19,rms_p2p_gram,0,0,0,0.0333333333333333,0,RMS/P2P + normalised Gram,12,0,1
+16,19,area_rms_p2p,0,0,0,0.02,0,Signed area + RMS/P2P,13,0,1
+16,20,area_gram_dct8,0,0,0.2,0.57,0,Area + Gram + DCT8,1,1,1
+16,21,area_gram_dct8,0,0,0,0.553333333333333,0,Area + Gram + DCT8,1,1,1
+16,21,rms_p2p_gram_dct8,0,0,0,0.533333333333333,0,RMS/P2P + Gram + DCT8,2,0,1
+16,21,qr_hybrid_16,0,0,0,0.516666666666667,0,QR hybrid (16),3,0,1
+16,21,rms_p2p_gram_dct16,0,0,0,0.446666666666667,0,RMS/P2P + Gram + DCT16,4,0,1
+16,21,signed_dct16,0,0,0,0.3,0,Signed DCT16,5,0,1
+16,21,strain_gram_dct16,0,0,0,0.283333333333333,0,Gram + DCT16,6,0,1
+16,21,strain_gram,0,0,0,0.17,0,Normalised strain Gram,7,0,1
+16,21,qr_hybrid_48,0,0,0,0.153333333333333,0,QR hybrid (48),8,0,1
+16,21,absolute_rms_p2p_gram,0,0,0,0.11,0,Absolute RMS/P2P + Gram,9,0,1
+16,21,qr_hybrid_24,0,0,0,0.0466666666666667,0,QR hybrid (24),10,0,1
+16,21,qr_hybrid_32,0,0,0,0.0466666666666667,0,QR hybrid (32),11,0,1
+16,21,rms_p2p_gram,0,0,0,0.0433333333333333,0,RMS/P2P + normalised Gram,12,0,1
+16,21,area_rms_p2p,0,0,0,0.0266666666666667,0,Signed area + RMS/P2P,13,0,1
+16,22,area_gram_dct8,0,0,0.109333333333333,0.566666666666667,0,Area + Gram + DCT8,1,1,1
+16,22,qr_hybrid_16,0,0,0.102666666666667,0.516666666666667,0.09,QR hybrid (16),2,0,1
+16,23,area_gram_dct8,0,0,0,0.553333333333333,0,Area + Gram + DCT8,1,1,1
+16,23,rms_p2p_gram_dct8,0,0,0,0.54,0,RMS/P2P + Gram + DCT8,2,0,1
+16,23,qr_hybrid_16,0,0,0,0.513333333333333,0,QR hybrid (16),3,0,1
+16,23,rms_p2p_gram_dct16,0,0,0,0.446666666666667,0,RMS/P2P + Gram + DCT16,4,0,1
+16,23,signed_dct16,0,0,0,0.3,0,Signed DCT16,5,0,1
+16,23,strain_gram_dct16,0,0,0,0.276666666666667,0,Gram + DCT16,6,0,1
+16,23,strain_gram,0,0,0,0.173333333333333,0,Normalised strain Gram,7,0,1
+16,23,qr_hybrid_48,0,0,0,0.166666666666667,0,QR hybrid (48),8,0,1
+16,23,absolute_rms_p2p_gram,0,0,0,0.103333333333333,0,Absolute RMS/P2P + Gram,9,0,1
+16,23,qr_hybrid_32,0,0,0,0.0566666666666667,0,QR hybrid (32),10,0,1
+16,23,qr_hybrid_24,0,0,0,0.05,0,QR hybrid (24),11,0,1
+16,23,rms_p2p_gram,0,0,0,0.05,0,RMS/P2P + normalised Gram,12,0,1
+16,23,area_rms_p2p,0,0,0,0.0266666666666667,0,Signed area + RMS/P2P,13,0,1
+16,24,area_gram_dct8,0,0,0,0.543333333333333,0,Area + Gram + DCT8,1,1,1
+16,24,rms_p2p_gram_dct8,0,0,0,0.536666666666667,0,RMS/P2P + Gram + DCT8,2,0,1
+16,24,qr_hybrid_16,0,0,0,0.533333333333333,0.0233333333333333,QR hybrid (16),3,0,1
+16,24,rms_p2p_gram_dct16,0,0,0,0.423333333333333,0,RMS/P2P + Gram + DCT16,4,0,1
+16,24,signed_dct16,0,0,0,0.253333333333333,0,Signed DCT16,5,0,1
+16,24,strain_gram_dct16,0,0,0,0.233333333333333,0,Gram + DCT16,6,0,1
+16,24,strain_gram,0,0,0,0.186666666666667,0,Normalised strain Gram,7,0,1
+16,24,qr_hybrid_48,0,0,0,0.123333333333333,0.01,QR hybrid (48),8,0,1
+16,24,absolute_rms_p2p_gram,0,0,0,0.11,0,Absolute RMS/P2P + Gram,9,0,1
+16,24,rms_p2p_gram,0,0,0,0.06,0,RMS/P2P + normalised Gram,10,0,1
+16,24,qr_hybrid_24,0,0,0,0.04,0,QR hybrid (24),11,0,1
+16,24,qr_hybrid_32,0,0,0,0.0333333333333333,0,QR hybrid (32),12,0,1
+16,24,area_rms_p2p,0,0,0,0.01,0,Signed area + RMS/P2P,13,0,1
+16,25,rms_p2p_gram_dct8,0,0,0.002,0.546666666666667,0,RMS/P2P + Gram + DCT8,1,1,1
+16,26,area_gram_dct8,0,0,0.594,0.496666666666667,0,Area + Gram + DCT8,1,1,1
+16,26,area_rms_p2p,0,0,0.574666666666667,0.03,0.186666666666667,Signed area + RMS/P2P,2,0,1
+16,27,rms_p2p_gram,0,0,0.434,0,0,RMS/P2P + normalised Gram,1,1,1
+16,28,rms_p2p_gram,0,0,0.360666666666667,0.0933333333333333,0.0333333333333333,RMS/P2P + normalised Gram,1,1,1
+16,29,rms_p2p_gram,0,0,0.231333333333333,0.113333333333333,0,RMS/P2P + normalised Gram,1,1,1
+16,30,qr_hybrid_16,0,0,0,0.533333333333333,0,QR hybrid (16),1,1,1
+16,30,area_gram_dct8,0,0,0,0.53,0,Area + Gram + DCT8,2,0,1
+16,30,rms_p2p_gram_dct8,0,0,0,0.5,0,RMS/P2P + Gram + DCT8,3,0,1
+16,30,rms_p2p_gram_dct16,0,0,0,0.45,0,RMS/P2P + Gram + DCT16,4,0,1
+16,30,signed_dct16,0,0,0,0.3,0,Signed DCT16,5,0,1
+16,30,strain_gram_dct16,0,0,0,0.28,0,Gram + DCT16,6,0,1
+16,30,qr_hybrid_48,0,0,0,0.156666666666667,0,QR hybrid (48),7,0,1
+16,30,absolute_rms_p2p_gram,0,0,0,0.106666666666667,0,Absolute RMS/P2P + Gram,8,0,1
+16,30,strain_gram,0,0,0,0.103333333333333,0,Normalised strain Gram,9,0,1
+16,30,qr_hybrid_32,0,0,0,0.0566666666666667,0,QR hybrid (32),10,0,1
+16,30,qr_hybrid_24,0,0,0,0.05,0,QR hybrid (24),11,0,1
+16,30,area_rms_p2p,0,0,0,0.0266666666666667,0,Signed area + RMS/P2P,12,0,1
+16,30,rms_p2p_gram,0,0,0,0.0166666666666667,0,RMS/P2P + normalised Gram,13,0,1
+16,31,qr_hybrid_16,0,0,0,0.536666666666667,0,QR hybrid (16),1,1,1
+16,31,rms_p2p_gram_dct8,0,0,0,0.526666666666667,0,RMS/P2P + Gram + DCT8,2,0,1
+16,31,area_gram_dct8,0,0,0,0.513333333333333,0,Area + Gram + DCT8,3,0,1
+16,31,rms_p2p_gram_dct16,0,0,0,0.416666666666667,0,RMS/P2P + Gram + DCT16,4,0,1
+16,31,signed_dct16,0,0,0,0.28,0,Signed DCT16,5,0,1
+16,31,strain_gram_dct16,0,0,0,0.263333333333333,0,Gram + DCT16,6,0,1
+16,31,strain_gram,0,0,0,0.17,0,Normalised strain Gram,7,0,1
+16,31,qr_hybrid_48,0,0,0,0.143333333333333,0,QR hybrid (48),8,0,1
+16,31,absolute_rms_p2p_gram,0,0,0,0.11,0,Absolute RMS/P2P + Gram,9,0,1
+16,31,qr_hybrid_32,0,0,0,0.0433333333333333,0,QR hybrid (32),10,0,1
+16,31,qr_hybrid_24,0,0,0,0.04,0,QR hybrid (24),11,0,1
+16,31,rms_p2p_gram,0,0,0,0.04,0,RMS/P2P + normalised Gram,12,0,1
+16,31,area_rms_p2p,0,0,0,0.01,0,Signed area + RMS/P2P,13,0,1
+16,32,area_gram_dct8,0.67,0.67,0.922666666666667,0.736666666666667,0.843333333333333,Area + Gram + DCT8,1,1,1
+16,33,qr_hybrid_24,0.0733333333333333,0.0733333333333333,0.677333333333333,0.2,0.336666666666667,QR hybrid (24),1,1,1
+16,33,rms_p2p_gram,0,0,0.629333333333333,0.0166666666666667,0.0866666666666667,RMS/P2P + normalised Gram,3,0,1
+16,34,qr_hybrid_48,0.00333333333333333,0.00333333333333333,0.484,0.256666666666667,0.03,QR hybrid (48),1,1,1
+16,34,rms_p2p_gram,0,0,0.523333333333333,0.0166666666666667,0.0366666666666667,RMS/P2P + normalised Gram,3,0,1
+16,34,qr_hybrid_24,0,0,0.457333333333333,0.123333333333333,0.00666666666666667,QR hybrid (24),4,0,1
+16,35,rms_p2p_gram,0.11,0.11,0.812666666666667,0.143333333333333,0.636666666666667,RMS/P2P + normalised Gram,1,1,1
+16,36,rms_p2p_gram,0,0,0.338666666666667,0.05,0,RMS/P2P + normalised Gram,1,1,1
+16,37,rms_p2p_gram_dct8,0,0,0.00666666666666667,0.17,0,RMS/P2P + Gram + DCT8,1,1,1
+16,38,rms_p2p_gram,0,0,0.596666666666667,0,0.08,RMS/P2P + normalised Gram,1,1,1
+16,39,area_rms_p2p,0.0933333333333333,0.0933333333333333,0.66,0.0933333333333333,0.726666666666667,Signed area + RMS/P2P,1,1,1
+16,39,rms_p2p_gram,0.00333333333333333,0.00333333333333333,0.742,0.02,0.15,RMS/P2P + normalised Gram,2,0,1
+16,40,qr_hybrid_16,0.00333333333333333,0.00333333333333333,0.328666666666667,0.51,0.0333333333333333,QR hybrid (16),1,1,1
+16,40,rms_p2p_gram,0,0,0.292666666666667,0.00333333333333333,0.00666666666666667,RMS/P2P + normalised Gram,2,0,1
+16,41,rms_p2p_gram_dct8,0,0,0,0.53,0,RMS/P2P + Gram + DCT8,1,1,1
+16,41,qr_hybrid_16,0,0,0,0.513333333333333,0,QR hybrid (16),2,0,1
+16,41,area_gram_dct8,0,0,0,0.506666666666667,0,Area + Gram + DCT8,3,0,1
+16,41,rms_p2p_gram_dct16,0,0,0,0.38,0,RMS/P2P + Gram + DCT16,4,0,1
+16,41,signed_dct16,0,0,0,0.23,0,Signed DCT16,5,0,1
+16,41,strain_gram,0,0,0,0.186666666666667,0,Normalised strain Gram,6,0,1
+16,41,strain_gram_dct16,0,0,0,0.14,0,Gram + DCT16,7,0,1
+16,41,qr_hybrid_48,0,0,0,0.0866666666666667,0,QR hybrid (48),8,0,1
+16,41,absolute_rms_p2p_gram,0,0,0,0.0733333333333333,0,Absolute RMS/P2P + Gram,9,0,1
+16,41,rms_p2p_gram,0,0,0,0.06,0,RMS/P2P + normalised Gram,10,0,1
+16,41,area_rms_p2p,0,0,0,0.02,0,Signed area + RMS/P2P,11,0,1
+16,41,qr_hybrid_24,0,0,0,0.01,0,QR hybrid (24),12,0,1
+16,41,qr_hybrid_32,0,0,0,0.01,0,QR hybrid (32),13,0,1
+16,42,qr_hybrid_16,0,0,0,0.536666666666667,0,QR hybrid (16),1,1,1
+16,42,rms_p2p_gram_dct16,0,0,0,0.373333333333333,0,RMS/P2P + Gram + DCT16,2,0,1
+16,42,area_gram_dct8,0,0,0,0.363333333333333,0,Area + Gram + DCT8,3,0,1
+16,42,rms_p2p_gram_dct8,0,0,0,0.343333333333333,0,RMS/P2P + Gram + DCT8,4,0,1
+16,42,signed_dct16,0,0,0,0.26,0,Signed DCT16,5,0,1
+16,42,strain_gram_dct16,0,0,0,0.25,0,Gram + DCT16,6,0,1
+16,42,qr_hybrid_48,0,0,0,0.113333333333333,0,QR hybrid (48),7,0,1
+16,42,absolute_rms_p2p_gram,0,0,0,0.0566666666666667,0,Absolute RMS/P2P + Gram,8,0,1
+16,42,qr_hybrid_24,0,0,0,0.05,0,QR hybrid (24),9,0,1
+16,42,qr_hybrid_32,0,0,0,0.0433333333333333,0,QR hybrid (32),10,0,1
+16,42,strain_gram,0,0,0,0.0366666666666667,0,Normalised strain Gram,11,0,1
+16,42,area_rms_p2p,0,0,0,0.00666666666666667,0,Signed area + RMS/P2P,12,0,1
+16,42,rms_p2p_gram,0,0,0,0.00333333333333333,0.00333333333333333,RMS/P2P + normalised Gram,13,0,1
+16,43,qr_hybrid_16,0,0,0,0.536666666666667,0,QR hybrid (16),1,1,1
+16,43,area_gram_dct8,0,0,0,0.523333333333333,0,Area + Gram + DCT8,2,0,1
+16,43,rms_p2p_gram_dct16,0,0,0,0.466666666666667,0,RMS/P2P + Gram + DCT16,3,0,1
+16,43,rms_p2p_gram_dct8,0,0,0,0.456666666666667,0,RMS/P2P + Gram + DCT8,4,0,1
+16,43,signed_dct16,0,0,0,0.3,0,Signed DCT16,5,0,1
+16,43,strain_gram_dct16,0,0,0,0.283333333333333,0,Gram + DCT16,6,0,1
+16,43,qr_hybrid_48,0,0,0,0.166666666666667,0,QR hybrid (48),7,0,1
+16,43,absolute_rms_p2p_gram,0,0,0,0.09,0,Absolute RMS/P2P + Gram,8,0,1
+16,43,qr_hybrid_32,0,0,0,0.06,0,QR hybrid (32),9,0,1
+16,43,qr_hybrid_24,0,0,0,0.0533333333333333,0,QR hybrid (24),10,0,1
+16,43,strain_gram,0,0,0,0.0233333333333333,0,Normalised strain Gram,11,0,1
+16,43,area_rms_p2p,0,0,0,0.00666666666666667,0,Signed area + RMS/P2P,12,0,1
+16,43,rms_p2p_gram,0,0,0,0,0,RMS/P2P + normalised Gram,13,0,1
+16,44,area_gram_dct8,0,0,0,0.523333333333333,0,Area + Gram + DCT8,1,1,1
+16,44,rms_p2p_gram_dct8,0,0,0,0.496666666666667,0,RMS/P2P + Gram + DCT8,2,0,1
+16,44,rms_p2p_gram_dct16,0,0,0,0.466666666666667,0,RMS/P2P + Gram + DCT16,3,0,1
+16,44,qr_hybrid_16,0,0,0,0.443333333333333,0,QR hybrid (16),4,0,1
+16,44,signed_dct16,0,0,0,0.3,0,Signed DCT16,5,0,1
+16,44,strain_gram_dct16,0,0,0,0.283333333333333,0,Gram + DCT16,6,0,1
+16,44,qr_hybrid_48,0,0,0,0.16,0,QR hybrid (48),7,0,1
+16,44,strain_gram,0,0,0,0.106666666666667,0,Normalised strain Gram,8,0,1
+16,44,absolute_rms_p2p_gram,0,0,0,0.08,0,Absolute RMS/P2P + Gram,9,0,1
+16,44,qr_hybrid_24,0,0,0,0.05,0,QR hybrid (24),10,0,1
+16,44,qr_hybrid_32,0,0,0,0.0466666666666667,0,QR hybrid (32),11,0,1
+16,44,area_rms_p2p,0,0,0,0.0266666666666667,0.02,Signed area + RMS/P2P,12,0,1
+16,44,rms_p2p_gram,0,0,0,0.0233333333333333,0,RMS/P2P + normalised Gram,13,0,1
+16,45,qr_hybrid_16,0,0,0,0.526666666666667,0,QR hybrid (16),1,1,1
+16,45,area_gram_dct8,0,0,0,0.46,0,Area + Gram + DCT8,2,0,1
+16,45,rms_p2p_gram_dct16,0,0,0,0.44,0,RMS/P2P + Gram + DCT16,3,0,1
+16,45,rms_p2p_gram_dct8,0,0,0,0.433333333333333,0,RMS/P2P + Gram + DCT8,4,0,1
+16,45,signed_dct16,0,0,0,0.3,0,Signed DCT16,5,0,1
+16,45,strain_gram_dct16,0,0,0,0.276666666666667,0,Gram + DCT16,6,0,1
+16,45,strain_gram,0,0,0,0.17,0,Normalised strain Gram,7,0,1
+16,45,qr_hybrid_48,0,0,0,0.116666666666667,0,QR hybrid (48),8,0,1
+16,45,absolute_rms_p2p_gram,0,0,0,0.0833333333333333,0.00333333333333333,Absolute RMS/P2P + Gram,9,0,1
+16,45,qr_hybrid_32,0,0,0,0.0366666666666667,0,QR hybrid (32),10,0,1
+16,45,qr_hybrid_24,0,0,0,0.0266666666666667,0,QR hybrid (24),11,0,1
+16,45,rms_p2p_gram,0,0,0,0.0166666666666667,0,RMS/P2P + normalised Gram,12,0,1
+16,45,area_rms_p2p,0,0,0,0.00333333333333333,0,Signed area + RMS/P2P,13,0,1
+16,46,area_gram_dct8,0.00666666666666667,0.00666666666666667,0.408666666666667,0.51,0.0433333333333333,Area + Gram + DCT8,1,1,1
+16,47,absolute_rms_p2p_gram,0.306666666666667,0.306666666666667,0.800666666666667,0.313333333333333,0.616666666666667,Absolute RMS/P2P + Gram,1,1,1
+16,48,rms_p2p_gram_dct8,0.0166666666666667,0.0166666666666667,0.200666666666667,0.606666666666667,0.0766666666666667,RMS/P2P + Gram + DCT8,1,1,1
+16,48,area_gram_dct8,0.01,0.01,0.322,0.603333333333333,0.0333333333333333,Area + Gram + DCT8,2,0,1
+16,49,rms_p2p_gram_dct8,0.65,0.65,0.918666666666667,0.766666666666667,0.863333333333333,RMS/P2P + Gram + DCT8,1,1,1
+16,50,area_gram_dct8,0,0,0,0.55,0,Area + Gram + DCT8,1,1,1
+16,50,qr_hybrid_16,0,0,0,0.533333333333333,0,QR hybrid (16),2,0,1
+16,50,rms_p2p_gram_dct8,0,0,0,0.513333333333333,0,RMS/P2P + Gram + DCT8,3,0,1
+16,50,rms_p2p_gram_dct16,0,0,0,0.47,0,RMS/P2P + Gram + DCT16,4,0,1
+16,50,signed_dct16,0,0,0,0.3,0,Signed DCT16,5,0,1
+16,50,strain_gram_dct16,0,0,0,0.293333333333333,0,Gram + DCT16,6,0,1
+16,50,qr_hybrid_48,0,0,0,0.166666666666667,0,QR hybrid (48),7,0,1
+16,50,absolute_rms_p2p_gram,0,0,0,0.11,0,Absolute RMS/P2P + Gram,8,0,1
+16,50,qr_hybrid_32,0,0,0,0.0633333333333333,0,QR hybrid (32),9,0,1
+16,50,qr_hybrid_24,0,0,0,0.0533333333333333,0,QR hybrid (24),10,0,1
+16,50,strain_gram,0,0,0,0.0266666666666667,0,Normalised strain Gram,11,0,1
+16,50,area_rms_p2p,0,0,0,0.00666666666666667,0,Signed area + RMS/P2P,12,0,1
+16,50,rms_p2p_gram,0,0,0,0.00666666666666667,0,RMS/P2P + normalised Gram,13,0,1
+16,51,area_gram_dct8,0,0,0,0.56,0,Area + Gram + DCT8,1,1,1
+16,51,qr_hybrid_16,0,0,0,0.543333333333333,0.03,QR hybrid (16),2,0,1
+16,51,rms_p2p_gram_dct8,0,0,0,0.516666666666667,0,RMS/P2P + Gram + DCT8,3,0,1
+16,51,rms_p2p_gram_dct16,0,0,0,0.473333333333333,0,RMS/P2P + Gram + DCT16,4,0,1
+16,51,signed_dct16,0,0,0,0.3,0,Signed DCT16,5,0,1
+16,51,strain_gram_dct16,0,0,0,0.286666666666667,0,Gram + DCT16,6,0,1
+16,51,qr_hybrid_48,0,0,0,0.173333333333333,0.00666666666666667,QR hybrid (48),7,0,1
+16,51,absolute_rms_p2p_gram,0,0,0,0.11,0.00333333333333333,Absolute RMS/P2P + Gram,8,0,1
+16,51,strain_gram,0,0,0,0.0866666666666667,0,Normalised strain Gram,9,0,1
+16,51,qr_hybrid_32,0,0,0,0.0633333333333333,0,QR hybrid (32),10,0,1
+16,51,qr_hybrid_24,0,0,0,0.0533333333333333,0.0166666666666667,QR hybrid (24),11,0,1
+16,51,rms_p2p_gram,0,0,0,0.0166666666666667,0,RMS/P2P + normalised Gram,12,0,1
+16,51,area_rms_p2p,0,0,0,0.00333333333333333,0,Signed area + RMS/P2P,13,0,1
+16,52,rms_p2p_gram,0,0,0.004,0.04,0.00666666666666667,RMS/P2P + normalised Gram,1,1,1
+16,53,area_gram_dct8,0,0,0,0.55,0,Area + Gram + DCT8,1,1,1
+16,53,rms_p2p_gram_dct8,0,0,0,0.52,0,RMS/P2P + Gram + DCT8,2,0,1
+16,53,qr_hybrid_16,0,0,0,0.506666666666667,0,QR hybrid (16),3,0,1
+16,53,rms_p2p_gram_dct16,0,0,0,0.463333333333333,0,RMS/P2P + Gram + DCT16,4,0,1
+16,53,signed_dct16,0,0,0,0.3,0,Signed DCT16,5,0,1
+16,53,strain_gram_dct16,0,0,0,0.29,0,Gram + DCT16,6,0,1
+16,53,strain_gram,0,0,0,0.17,0,Normalised strain Gram,7,0,1
+16,53,qr_hybrid_48,0,0,0,0.156666666666667,0,QR hybrid (48),8,0,1
+16,53,absolute_rms_p2p_gram,0,0,0,0.11,0.0466666666666667,Absolute RMS/P2P + Gram,9,0,1
+16,53,qr_hybrid_24,0,0,0,0.0466666666666667,0,QR hybrid (24),10,0,1
+16,53,qr_hybrid_32,0,0,0,0.0466666666666667,0,QR hybrid (32),11,0,1
+16,53,rms_p2p_gram,0,0,0,0.04,0,RMS/P2P + normalised Gram,12,0,1
+16,53,area_rms_p2p,0,0,0,0.0233333333333333,0,Signed area + RMS/P2P,13,0,1
+16,54,qr_hybrid_16,0,0,0,0.533333333333333,0,QR hybrid (16),1,1,1
+16,54,rms_p2p_gram_dct8,0,0,0,0.423333333333333,0,RMS/P2P + Gram + DCT8,2,0,1
+16,54,rms_p2p_gram_dct16,0,0,0,0.42,0,RMS/P2P + Gram + DCT16,3,0,1
+16,54,area_gram_dct8,0,0,0,0.39,0,Area + Gram + DCT8,4,0,1
+16,54,signed_dct16,0,0,0,0.3,0,Signed DCT16,5,0,1
+16,54,strain_gram_dct16,0,0,0,0.276666666666667,0,Gram + DCT16,6,0,1
+16,54,strain_gram,0,0,0,0.176666666666667,0,Normalised strain Gram,7,0,1
+16,54,qr_hybrid_48,0,0,0,0.0966666666666667,0,QR hybrid (48),8,0,1
+16,54,absolute_rms_p2p_gram,0,0,0,0.08,0,Absolute RMS/P2P + Gram,9,0,1
+16,54,qr_hybrid_32,0,0,0,0.0366666666666667,0,QR hybrid (32),10,0,1
+16,54,qr_hybrid_24,0,0,0,0.03,0,QR hybrid (24),11,0,1
+16,54,rms_p2p_gram,0,0,0,0.02,0,RMS/P2P + normalised Gram,12,0,1
+16,54,area_rms_p2p,0,0,0,0.00333333333333333,0,Signed area + RMS/P2P,13,0,1
+16,55,area_gram_dct8,0,0,0,0.546666666666667,0,Area + Gram + DCT8,1,1,1
+16,55,qr_hybrid_16,0,0,0,0.536666666666667,0,QR hybrid (16),2,0,1
+16,55,rms_p2p_gram_dct8,0,0,0,0.52,0,RMS/P2P + Gram + DCT8,3,0,1
+16,55,rms_p2p_gram_dct16,0,0,0,0.45,0.00666666666666667,RMS/P2P + Gram + DCT16,4,0,1
+16,55,signed_dct16,0,0,0,0.3,0,Signed DCT16,5,0,1
+16,55,strain_gram_dct16,0,0,0,0.28,0,Gram + DCT16,6,0,1
+16,55,strain_gram,0,0,0,0.17,0,Normalised strain Gram,7,0,1
+16,55,qr_hybrid_48,0,0,0,0.156666666666667,0,QR hybrid (48),8,0,1
+16,55,absolute_rms_p2p_gram,0,0,0,0.116666666666667,0.133333333333333,Absolute RMS/P2P + Gram,9,0,1
+16,55,qr_hybrid_32,0,0,0,0.05,0,QR hybrid (32),10,0,1
+16,55,qr_hybrid_24,0,0,0,0.0466666666666667,0,QR hybrid (24),11,0,1
+16,55,rms_p2p_gram,0,0,0,0.04,0,RMS/P2P + normalised Gram,12,0,1
+16,55,area_rms_p2p,0,0,0,0.0266666666666667,0,Signed area + RMS/P2P,13,0,1
+16,56,area_gram_dct8,0,0,0,0.556666666666667,0,Area + Gram + DCT8,1,1,1
+16,56,qr_hybrid_16,0,0,0,0.536666666666667,0,QR hybrid (16),2,0,1
+16,56,rms_p2p_gram_dct8,0,0,0,0.53,0,RMS/P2P + Gram + DCT8,3,0,1
+16,56,rms_p2p_gram_dct16,0,0,0,0.446666666666667,0,RMS/P2P + Gram + DCT16,4,0,1
+16,56,signed_dct16,0,0,0,0.293333333333333,0,Signed DCT16,5,0,1
+16,56,strain_gram_dct16,0,0,0,0.276666666666667,0,Gram + DCT16,6,0,1
+16,56,strain_gram,0,0,0,0.18,0,Normalised strain Gram,7,0,1
+16,56,qr_hybrid_48,0,0,0,0.146666666666667,0,QR hybrid (48),8,0,1
+16,56,absolute_rms_p2p_gram,0,0,0,0.113333333333333,0.00666666666666667,Absolute RMS/P2P + Gram,9,0,1
+16,56,rms_p2p_gram,0,0,0,0.05,0.00666666666666667,RMS/P2P + normalised Gram,10,0,1
+16,56,qr_hybrid_32,0,0,0,0.05,0,QR hybrid (32),11,0,1
+16,56,qr_hybrid_24,0,0,0,0.0466666666666667,0,QR hybrid (24),12,0,1
+16,56,area_rms_p2p,0,0,0,0.0266666666666667,0,Signed area + RMS/P2P,13,0,1
+16,57,area_gram_dct8,0,0,0,0.556666666666667,0,Area + Gram + DCT8,1,1,1
+16,57,rms_p2p_gram_dct8,0,0,0,0.52,0,RMS/P2P + Gram + DCT8,2,0,1
+16,57,qr_hybrid_16,0,0,0,0.5,0,QR hybrid (16),3,0,1
+16,57,rms_p2p_gram_dct16,0,0,0,0.443333333333333,0,RMS/P2P + Gram + DCT16,4,0,1
+16,57,signed_dct16,0,0,0,0.293333333333333,0,Signed DCT16,5,0,1
+16,57,strain_gram_dct16,0,0,0,0.283333333333333,0,Gram + DCT16,6,0,1
+16,57,strain_gram,0,0,0,0.18,0,Normalised strain Gram,7,0,1
+16,57,qr_hybrid_48,0,0,0,0.16,0.00666666666666667,QR hybrid (48),8,0,1
+16,57,absolute_rms_p2p_gram,0,0,0,0.11,0.03,Absolute RMS/P2P + Gram,9,0,1
+16,57,qr_hybrid_32,0,0,0,0.0533333333333333,0.00666666666666667,QR hybrid (32),10,0,1
+16,57,qr_hybrid_24,0,0,0,0.05,0,QR hybrid (24),11,0,1
+16,57,rms_p2p_gram,0,0,0,0.0433333333333333,0,RMS/P2P + normalised Gram,12,0,1
+16,57,area_rms_p2p,0,0,0,0.03,0,Signed area + RMS/P2P,13,0,1
+16,58,area_gram_dct8,0,0,0,0.556666666666667,0.01,Area + Gram + DCT8,1,1,1
+16,58,rms_p2p_gram_dct8,0,0,0,0.52,0.0233333333333333,RMS/P2P + Gram + DCT8,2,0,1
+16,58,qr_hybrid_16,0,0,0,0.48,0,QR hybrid (16),3,0,1
+16,58,rms_p2p_gram_dct16,0,0,0,0.443333333333333,0,RMS/P2P + Gram + DCT16,4,0,1
+16,58,signed_dct16,0,0,0,0.3,0,Signed DCT16,5,0,1
+16,58,strain_gram_dct16,0,0,0,0.283333333333333,0,Gram + DCT16,6,0,1
+16,58,strain_gram,0,0,0,0.18,0,Normalised strain Gram,7,0,1
+16,58,qr_hybrid_48,0,0,0,0.16,0.02,QR hybrid (48),8,0,1
+16,58,absolute_rms_p2p_gram,0,0,0,0.11,0.0566666666666667,Absolute RMS/P2P + Gram,9,0,1
+16,58,qr_hybrid_32,0,0,0,0.0533333333333333,0.0133333333333333,QR hybrid (32),10,0,1
+16,58,qr_hybrid_24,0,0,0,0.05,0.01,QR hybrid (24),11,0,1
+16,58,rms_p2p_gram,0,0,0,0.0433333333333333,0.0366666666666667,RMS/P2P + normalised Gram,12,0,1
+16,58,area_rms_p2p,0,0,0,0.03,0.466666666666667,Signed area + RMS/P2P,13,0,1
+16,59,area_gram_dct8,0,0,0,0.536666666666667,0,Area + Gram + DCT8,1,1,1
+16,59,qr_hybrid_16,0,0,0,0.533333333333333,0,QR hybrid (16),2,0,1
+16,59,rms_p2p_gram_dct8,0,0,0,0.526666666666667,0,RMS/P2P + Gram + DCT8,3,0,1
+16,59,rms_p2p_gram_dct16,0,0,0,0.43,0,RMS/P2P + Gram + DCT16,4,0,1
+16,59,signed_dct16,0,0,0,0.293333333333333,0,Signed DCT16,5,0,1
+16,59,strain_gram_dct16,0,0,0,0.276666666666667,0,Gram + DCT16,6,0,1
+16,59,strain_gram,0,0,0,0.183333333333333,0,Normalised strain Gram,7,0,1
+16,59,qr_hybrid_48,0,0,0,0.133333333333333,0,QR hybrid (48),8,0,1
+16,59,absolute_rms_p2p_gram,0,0,0,0.11,0,Absolute RMS/P2P + Gram,9,0,1
+16,59,rms_p2p_gram,0,0,0,0.05,0,RMS/P2P + normalised Gram,10,0,1
+16,59,qr_hybrid_24,0,0,0,0.0366666666666667,0,QR hybrid (24),11,0,1
+16,59,qr_hybrid_32,0,0,0,0.0333333333333333,0,QR hybrid (32),12,0,1
+16,59,area_rms_p2p,0,0,0,0.0266666666666667,0,Signed area + RMS/P2P,13,0,1
+16,60,area_gram_dct8,0,0,0,0.533333333333333,0,Area + Gram + DCT8,1,1,1
+16,60,qr_hybrid_16,0,0,0,0.533333333333333,0,QR hybrid (16),2,0,1
+16,60,rms_p2p_gram_dct8,0,0,0,0.51,0,RMS/P2P + Gram + DCT8,3,0,1
+16,60,rms_p2p_gram_dct16,0,0,0,0.426666666666667,0,RMS/P2P + Gram + DCT16,4,0,1
+16,60,signed_dct16,0,0,0,0.293333333333333,0,Signed DCT16,5,0,1
+16,60,strain_gram_dct16,0,0,0,0.273333333333333,0,Gram + DCT16,6,0,1
+16,60,strain_gram,0,0,0,0.16,0,Normalised strain Gram,7,0,1
+16,60,qr_hybrid_48,0,0,0,0.143333333333333,0,QR hybrid (48),8,0,1
+16,60,absolute_rms_p2p_gram,0,0,0,0.11,0,Absolute RMS/P2P + Gram,9,0,1
+16,60,qr_hybrid_32,0,0,0,0.0566666666666667,0,QR hybrid (32),10,0,1
+16,60,qr_hybrid_24,0,0,0,0.05,0,QR hybrid (24),11,0,1
+16,60,rms_p2p_gram,0,0,0,0.04,0,RMS/P2P + normalised Gram,12,0,1
+16,60,area_rms_p2p,0,0,0,0.0266666666666667,0,Signed area + RMS/P2P,13,0,1
+16,61,area_gram_dct8,0,0,0,0.56,0,Area + Gram + DCT8,1,1,1
+16,61,rms_p2p_gram_dct8,0,0,0,0.536666666666667,0,RMS/P2P + Gram + DCT8,2,0,1
+16,61,qr_hybrid_16,0,0,0,0.516666666666667,0,QR hybrid (16),3,0,1
+16,61,rms_p2p_gram_dct16,0,0,0,0.45,0,RMS/P2P + Gram + DCT16,4,0,1
+16,61,signed_dct16,0,0,0,0.3,0,Signed DCT16,5,0,1
+16,61,strain_gram_dct16,0,0,0,0.283333333333333,0,Gram + DCT16,6,0,1
+16,61,strain_gram,0,0,0,0.186666666666667,0,Normalised strain Gram,7,0,1
+16,61,qr_hybrid_48,0,0,0,0.16,0,QR hybrid (48),8,0,1
+16,61,absolute_rms_p2p_gram,0,0,0,0.106666666666667,0,Absolute RMS/P2P + Gram,9,0,1
+16,61,rms_p2p_gram,0,0,0,0.0566666666666667,0,RMS/P2P + normalised Gram,10,0,1
+16,61,qr_hybrid_32,0,0,0,0.0533333333333333,0,QR hybrid (32),11,0,1
+16,61,qr_hybrid_24,0,0,0,0.05,0,QR hybrid (24),12,0,1
+16,61,area_rms_p2p,0,0,0,0.0266666666666667,0,Signed area + RMS/P2P,13,0,1
+16,62,qr_hybrid_16,0,0,0,0.533333333333333,0,QR hybrid (16),1,1,1
+16,62,area_gram_dct8,0,0,0,0.523333333333333,0,Area + Gram + DCT8,2,0,1
+16,62,rms_p2p_gram_dct8,0,0,0,0.5,0,RMS/P2P + Gram + DCT8,3,0,1
+16,62,rms_p2p_gram_dct16,0,0,0,0.426666666666667,0,RMS/P2P + Gram + DCT16,4,0,1
+16,62,signed_dct16,0,0,0,0.293333333333333,0,Signed DCT16,5,0,1
+16,62,strain_gram_dct16,0,0,0,0.273333333333333,0,Gram + DCT16,6,0,1
+16,62,strain_gram,0,0,0,0.15,0,Normalised strain Gram,7,0,1
+16,62,qr_hybrid_48,0,0,0,0.133333333333333,0,QR hybrid (48),8,0,1
+16,62,absolute_rms_p2p_gram,0,0,0,0.11,0,Absolute RMS/P2P + Gram,9,0,1
+16,62,qr_hybrid_32,0,0,0,0.0533333333333333,0,QR hybrid (32),10,0,1
+16,62,qr_hybrid_24,0,0,0,0.0466666666666667,0,QR hybrid (24),11,0,1
+16,62,rms_p2p_gram,0,0,0,0.0266666666666667,0,RMS/P2P + normalised Gram,12,0,1
+16,62,area_rms_p2p,0,0,0,0.0166666666666667,0,Signed area + RMS/P2P,13,0,1
+16,63,area_gram_dct8,0,0,0,0.546666666666667,0,Area + Gram + DCT8,1,1,1
+16,63,qr_hybrid_16,0,0,0,0.533333333333333,0,QR hybrid (16),2,0,1
+16,63,rms_p2p_gram_dct8,0,0,0,0.51,0,RMS/P2P + Gram + DCT8,3,0,1
+16,63,rms_p2p_gram_dct16,0,0,0,0.443333333333333,0,RMS/P2P + Gram + DCT16,4,0,1
+16,63,signed_dct16,0,0,0,0.3,0,Signed DCT16,5,0,1
+16,63,strain_gram_dct16,0,0,0,0.28,0,Gram + DCT16,6,0,1
+16,63,strain_gram,0,0,0,0.163333333333333,0,Normalised strain Gram,7,0,1
+16,63,qr_hybrid_48,0,0,0,0.156666666666667,0,QR hybrid (48),8,0,1
+16,63,absolute_rms_p2p_gram,0,0,0,0.11,0,Absolute RMS/P2P + Gram,9,0,1
+16,63,qr_hybrid_32,0,0,0,0.0566666666666667,0,QR hybrid (32),10,0,1
+16,63,qr_hybrid_24,0,0,0,0.05,0,QR hybrid (24),11,0,1
+16,63,rms_p2p_gram,0,0,0,0.04,0,RMS/P2P + normalised Gram,12,0,1
+16,63,area_rms_p2p,0,0,0,0.0266666666666667,0,Signed area + RMS/P2P,13,0,1
+16,64,area_gram_dct8,0,0,0,0.543333333333333,0,Area + Gram + DCT8,1,1,1
+16,64,qr_hybrid_16,0,0,0,0.533333333333333,0,QR hybrid (16),2,0,1
+16,64,rms_p2p_gram_dct8,0,0,0,0.506666666666667,0,RMS/P2P + Gram + DCT8,3,0,1
+16,64,rms_p2p_gram_dct16,0,0,0,0.443333333333333,0,RMS/P2P + Gram + DCT16,4,0,1
+16,64,signed_dct16,0,0,0,0.3,0,Signed DCT16,5,0,1
+16,64,strain_gram_dct16,0,0,0,0.28,0,Gram + DCT16,6,0,1
+16,64,strain_gram,0,0,0,0.163333333333333,0,Normalised strain Gram,7,0,1
+16,64,qr_hybrid_48,0,0,0,0.156666666666667,0,QR hybrid (48),8,0,1
+16,64,absolute_rms_p2p_gram,0,0,0,0.11,0,Absolute RMS/P2P + Gram,9,0,1
+16,64,qr_hybrid_32,0,0,0,0.0566666666666667,0,QR hybrid (32),10,0,1
+16,64,qr_hybrid_24,0,0,0,0.05,0,QR hybrid (24),11,0,1
+16,64,rms_p2p_gram,0,0,0,0.0366666666666667,0,RMS/P2P + normalised Gram,12,0,1
+16,64,area_rms_p2p,0,0,0,0.0266666666666667,0,Signed area + RMS/P2P,13,0,1
+16,65,area_gram_dct8,0,0,0,0.546666666666667,0,Area + Gram + DCT8,1,1,1
+16,65,qr_hybrid_16,0,0,0,0.526666666666667,0,QR hybrid (16),2,0,1
+16,65,rms_p2p_gram_dct8,0,0,0,0.513333333333333,0,RMS/P2P + Gram + DCT8,3,0,1
+16,65,rms_p2p_gram_dct16,0,0,0,0.443333333333333,0,RMS/P2P + Gram + DCT16,4,0,1
+16,65,signed_dct16,0,0,0,0.3,0,Signed DCT16,5,0,1
+16,65,strain_gram_dct16,0,0,0,0.28,0,Gram + DCT16,6,0,1
+16,65,strain_gram,0,0,0,0.166666666666667,0,Normalised strain Gram,7,0,1
+16,65,qr_hybrid_48,0,0,0,0.16,0,QR hybrid (48),8,0,1
+16,65,absolute_rms_p2p_gram,0,0,0,0.11,0,Absolute RMS/P2P + Gram,9,0,1
+16,65,qr_hybrid_32,0,0,0,0.0566666666666667,0,QR hybrid (32),10,0,1
+16,65,qr_hybrid_24,0,0,0,0.05,0,QR hybrid (24),11,0,1
+16,65,rms_p2p_gram,0,0,0,0.04,0,RMS/P2P + normalised Gram,12,0,1
+16,65,area_rms_p2p,0,0,0,0.0266666666666667,0,Signed area + RMS/P2P,13,0,1
+16,66,area_gram_dct8,0,0,0,0.54,0,Area + Gram + DCT8,1,1,1
+16,66,qr_hybrid_16,0,0,0,0.533333333333333,0,QR hybrid (16),2,0,1
+16,66,rms_p2p_gram_dct8,0,0,0,0.503333333333333,0,RMS/P2P + Gram + DCT8,3,0,1
+16,66,rms_p2p_gram_dct16,0,0,0,0.443333333333333,0,RMS/P2P + Gram + DCT16,4,0,1
+16,66,signed_dct16,0,0,0,0.3,0,Signed DCT16,5,0,1
+16,66,strain_gram_dct16,0,0,0,0.28,0,Gram + DCT16,6,0,1
+16,66,strain_gram,0,0,0,0.16,0,Normalised strain Gram,7,0,1
+16,66,qr_hybrid_48,0,0,0,0.156666666666667,0,QR hybrid (48),8,0,1
+16,66,absolute_rms_p2p_gram,0,0,0,0.106666666666667,0,Absolute RMS/P2P + Gram,9,0,1
+16,66,qr_hybrid_32,0,0,0,0.0566666666666667,0,QR hybrid (32),10,0,1
+16,66,qr_hybrid_24,0,0,0,0.05,0,QR hybrid (24),11,0,1
+16,66,rms_p2p_gram,0,0,0,0.03,0,RMS/P2P + normalised Gram,12,0,1
+16,66,area_rms_p2p,0,0,0,0.0266666666666667,0,Signed area + RMS/P2P,13,0,1
+16,67,area_gram_dct8,0,0,0,0.546666666666667,0,Area + Gram + DCT8,1,1,1
+16,67,qr_hybrid_16,0,0,0,0.533333333333333,0,QR hybrid (16),2,0,1
+16,67,rms_p2p_gram_dct8,0,0,0,0.513333333333333,0,RMS/P2P + Gram + DCT8,3,0,1
+16,67,rms_p2p_gram_dct16,0,0,0,0.443333333333333,0,RMS/P2P + Gram + DCT16,4,0,1
+16,67,signed_dct16,0,0,0,0.3,0,Signed DCT16,5,0,1
+16,67,strain_gram_dct16,0,0,0,0.283333333333333,0,Gram + DCT16,6,0,1
+16,67,strain_gram,0,0,0,0.17,0,Normalised strain Gram,7,0,1
+16,67,qr_hybrid_48,0,0,0,0.16,0,QR hybrid (48),8,0,1
+16,67,absolute_rms_p2p_gram,0,0,0,0.11,0,Absolute RMS/P2P + Gram,9,0,1
+16,67,qr_hybrid_32,0,0,0,0.0566666666666667,0,QR hybrid (32),10,0,1
+16,67,qr_hybrid_24,0,0,0,0.05,0,QR hybrid (24),11,0,1
+16,67,rms_p2p_gram,0,0,0,0.04,0,RMS/P2P + normalised Gram,12,0,1
+16,67,area_rms_p2p,0,0,0,0.0266666666666667,0,Signed area + RMS/P2P,13,0,1
+32,0,area_gram_dct8,0,0,0,0.783333333333333,0,Area + Gram + DCT8,1,1,1
+32,0,rms_p2p_gram_dct8,0,0,0,0.746666666666667,0,RMS/P2P + Gram + DCT8,2,0,1
+32,0,rms_p2p_gram_dct16,0,0,0,0.733333333333333,0,RMS/P2P + Gram + DCT16,3,0,1
+32,0,qr_hybrid_16,0,0,0,0.7,0,QR hybrid (16),4,0,1
+32,0,strain_gram_dct16,0,0,0,0.5,0,Gram + DCT16,5,0,1
+32,0,signed_dct16,0,0,0,0.473333333333333,0,Signed DCT16,6,0,1
+32,0,qr_hybrid_48,0,0,0,0.196666666666667,0,QR hybrid (48),7,0,1
+32,0,absolute_rms_p2p_gram,0,0,0,0.126666666666667,0,Absolute RMS/P2P + Gram,8,0,1
+32,0,strain_gram,0,0,0,0.123333333333333,0,Normalised strain Gram,9,0,1
+32,0,qr_hybrid_32,0,0,0,0.07,0,QR hybrid (32),10,0,1
+32,0,qr_hybrid_24,0,0,0,0.05,0,QR hybrid (24),11,0,1
+32,0,rms_p2p_gram,0,0,0,0.0166666666666667,0,RMS/P2P + normalised Gram,12,0,1
+32,0,area_rms_p2p,0,0,0,0.00333333333333333,0,Signed area + RMS/P2P,13,0,1
+32,1,area_gram_dct8,0,0,0,0.753333333333333,0,Area + Gram + DCT8,1,1,1
+32,1,rms_p2p_gram_dct8,0,0,0,0.713333333333333,0,RMS/P2P + Gram + DCT8,2,0,1
+32,1,rms_p2p_gram_dct16,0,0,0,0.703333333333333,0,RMS/P2P + Gram + DCT16,3,0,1
+32,1,qr_hybrid_16,0,0,0,0.696666666666667,0,QR hybrid (16),4,0,1
+32,1,strain_gram_dct16,0,0,0,0.46,0,Gram + DCT16,5,0,1
+32,1,signed_dct16,0,0,0,0.446666666666667,0,Signed DCT16,6,0,1
+32,1,qr_hybrid_48,0,0,0,0.183333333333333,0,QR hybrid (48),7,0,1
+32,1,absolute_rms_p2p_gram,0,0,0,0.126666666666667,0,Absolute RMS/P2P + Gram,8,0,1
+32,1,strain_gram,0,0,0,0.12,0,Normalised strain Gram,9,0,1
+32,1,qr_hybrid_32,0,0,0,0.0533333333333333,0,QR hybrid (32),10,0,1
+32,1,qr_hybrid_24,0,0,0,0.0366666666666667,0,QR hybrid (24),11,0,1
+32,1,rms_p2p_gram,0,0,0,0.0166666666666667,0,RMS/P2P + normalised Gram,12,0,1
+32,1,area_rms_p2p,0,0,0,0.00333333333333333,0,Signed area + RMS/P2P,13,0,1
+32,2,qr_hybrid_24,0.03,0.03,0.453333333333333,0.11,0.0466666666666667,QR hybrid (24),1,1,1
+32,2,qr_hybrid_32,0,0,0.391333333333333,0.11,0,QR hybrid (32),2,0,1
+32,3,qr_hybrid_32,0.0533333333333333,0.0533333333333333,0.41,0.103333333333333,0.483333333333333,QR hybrid (32),1,1,1
+32,3,qr_hybrid_24,0.0466666666666667,0.0466666666666667,0.451333333333333,0.0833333333333333,0.623333333333333,QR hybrid (24),2,0,1
+32,3,rms_p2p_gram,0,0,0.298666666666667,0.0233333333333333,0.0133333333333333,RMS/P2P + normalised Gram,4,0,1
+32,4,absolute_rms_p2p_gram,0.00666666666666667,0.00666666666666667,0.702666666666667,0.133333333333333,0.106666666666667,Absolute RMS/P2P + Gram,1,1,1
+32,4,rms_p2p_gram,0,0,0.8,0.28,0.11,RMS/P2P + normalised Gram,2,0,1
+32,5,rms_p2p_gram_dct8,0,0,0.625333333333333,0.756666666666667,0,RMS/P2P + Gram + DCT8,1,1,1
+32,6,qr_hybrid_32,0.286666666666667,0.286666666666667,0.857333333333333,0.4,0.676666666666667,QR hybrid (32),1,1,1
+32,7,qr_hybrid_32,0.0566666666666667,0.0566666666666667,0.747333333333333,0.22,0.346666666666667,QR hybrid (32),1,1,1
+32,7,rms_p2p_gram_dct16,0.01,0.01,0.783333333333333,0.803333333333333,0.0166666666666667,RMS/P2P + Gram + DCT16,4,0,1
+32,7,rms_p2p_gram_dct8,0,0,0.799333333333333,0.87,0.02,RMS/P2P + Gram + DCT8,6,0,1
+32,8,rms_p2p_gram,0,0,0.732,0.00666666666666667,0.0433333333333333,RMS/P2P + normalised Gram,1,1,1
+32,9,rms_p2p_gram,0,0,0.637333333333333,0.02,0.0433333333333333,RMS/P2P + normalised Gram,1,1,1
+32,10,rms_p2p_gram,0.996666666666667,0.996666666666667,0.999333333333333,1,0.996666666666667,RMS/P2P + normalised Gram,1,1,1
+32,11,strain_gram,0,0,0.798666666666667,0.143333333333333,0.0333333333333333,Normalised strain Gram,1,1,1
+32,11,rms_p2p_gram,0,0,0.798666666666667,0.0233333333333333,0,RMS/P2P + normalised Gram,2,0,1
+32,12,strain_gram,0,0,0.8,0.11,0.12,Normalised strain Gram,1,1,1
+32,12,rms_p2p_gram,0,0,0.8,0.0233333333333333,0.54,RMS/P2P + normalised Gram,2,0,1
+32,12,area_rms_p2p,0,0,0.8,0,0.0233333333333333,Signed area + RMS/P2P,3,0,1
+32,13,qr_hybrid_16,0.806666666666667,0.806666666666667,0.932,0.81,0.906666666666667,QR hybrid (16),1,1,1
+32,13,rms_p2p_gram,0,0,0.599333333333333,0.00666666666666667,0,RMS/P2P + normalised Gram,2,0,1
+32,14,qr_hybrid_24,0.0466666666666667,0.0466666666666667,0.435333333333333,0.0666666666666667,0.483333333333333,QR hybrid (24),1,1,1
+32,14,rms_p2p_gram_dct8,0,0,0.522,0.71,0,RMS/P2P + Gram + DCT8,2,0,1
+32,14,area_rms_p2p,0,0,0.400666666666667,0.0133333333333333,0,Signed area + RMS/P2P,5,0,1
+32,14,rms_p2p_gram,0,0,0.400666666666667,0.01,0.00333333333333333,RMS/P2P + normalised Gram,6,0,1
+32,15,rms_p2p_gram,0,0,0.0973333333333333,0.00333333333333333,0,RMS/P2P + normalised Gram,1,1,1
+32,16,area_gram_dct8,0,0,0,0.763333333333333,0,Area + Gram + DCT8,1,1,1
+32,16,rms_p2p_gram_dct8,0,0,0,0.746666666666667,0,RMS/P2P + Gram + DCT8,2,0,1
+32,16,rms_p2p_gram_dct16,0,0,0,0.726666666666667,0,RMS/P2P + Gram + DCT16,3,0,1
+32,16,qr_hybrid_16,0,0,0,0.693333333333333,0,QR hybrid (16),4,0,1
+32,16,strain_gram_dct16,0,0,0,0.463333333333333,0,Gram + DCT16,5,0,1
+32,16,signed_dct16,0,0,0,0.456666666666667,0,Signed DCT16,6,0,1
+32,16,strain_gram,0,0,0,0.206666666666667,0,Normalised strain Gram,7,0,1
+32,16,qr_hybrid_48,0,0,0,0.186666666666667,0,QR hybrid (48),8,0,1
+32,16,absolute_rms_p2p_gram,0,0,0,0.126666666666667,0,Absolute RMS/P2P + Gram,9,0,1
+32,16,qr_hybrid_32,0,0,0,0.0566666666666667,0,QR hybrid (32),10,0,1
+32,16,qr_hybrid_24,0,0,0,0.04,0,QR hybrid (24),11,0,1
+32,16,rms_p2p_gram,0,0,0,0.0233333333333333,0,RMS/P2P + normalised Gram,12,0,1
+32,16,area_rms_p2p,0,0,0,0.00333333333333333,0,Signed area + RMS/P2P,13,0,1
+32,17,area_gram_dct8,0,0,0,0.706666666666667,0,Area + Gram + DCT8,1,1,1
+32,17,qr_hybrid_16,0,0,0,0.69,0,QR hybrid (16),2,0,1
+32,17,rms_p2p_gram_dct16,0,0,0,0.68,0,RMS/P2P + Gram + DCT16,3,0,1
+32,17,rms_p2p_gram_dct8,0,0,0,0.663333333333333,0,RMS/P2P + Gram + DCT8,4,0,1
+32,17,signed_dct16,0,0,0,0.446666666666667,0,Signed DCT16,5,0,1
+32,17,strain_gram_dct16,0,0,0,0.443333333333333,0,Gram + DCT16,6,0,1
+32,17,qr_hybrid_48,0,0,0,0.183333333333333,0,QR hybrid (48),7,0,1
+32,17,strain_gram,0,0,0,0.143333333333333,0,Normalised strain Gram,8,0,1
+32,17,absolute_rms_p2p_gram,0,0,0,0.126666666666667,0,Absolute RMS/P2P + Gram,9,0,1
+32,17,qr_hybrid_32,0,0,0,0.0533333333333333,0,QR hybrid (32),10,0,1
+32,17,qr_hybrid_24,0,0,0,0.0366666666666667,0,QR hybrid (24),11,0,1
+32,17,rms_p2p_gram,0,0,0,0.02,0,RMS/P2P + normalised Gram,12,0,1
+32,17,area_rms_p2p,0,0,0,0.00333333333333333,0,Signed area + RMS/P2P,13,0,1
+32,18,area_gram_dct8,0,0,0,0.78,0,Area + Gram + DCT8,1,1,1
+32,18,rms_p2p_gram_dct8,0,0,0,0.763333333333333,0,RMS/P2P + Gram + DCT8,2,0,1
+32,18,rms_p2p_gram_dct16,0,0,0,0.726666666666667,0,RMS/P2P + Gram + DCT16,3,0,1
+32,18,qr_hybrid_16,0,0,0,0.69,0,QR hybrid (16),4,0,1
+32,18,strain_gram_dct16,0,0,0,0.463333333333333,0,Gram + DCT16,5,0,1
+32,18,signed_dct16,0,0,0,0.456666666666667,0,Signed DCT16,6,0,1
+32,18,strain_gram,0,0,0,0.21,0,Normalised strain Gram,7,0,1
+32,18,qr_hybrid_48,0,0,0,0.186666666666667,0,QR hybrid (48),8,0,1
+32,18,absolute_rms_p2p_gram,0,0,0,0.126666666666667,0,Absolute RMS/P2P + Gram,9,0,1
+32,18,qr_hybrid_32,0,0,0,0.0566666666666667,0,QR hybrid (32),10,0,1
+32,18,qr_hybrid_24,0,0,0,0.04,0,QR hybrid (24),11,0,1
+32,18,rms_p2p_gram,0,0,0,0.0266666666666667,0,RMS/P2P + normalised Gram,12,0,1
+32,18,area_rms_p2p,0,0,0,0.00333333333333333,0,Signed area + RMS/P2P,13,0,1
+32,19,area_gram_dct8,0,0,0,0.76,0,Area + Gram + DCT8,1,1,1
+32,19,rms_p2p_gram_dct8,0,0,0,0.743333333333333,0,RMS/P2P + Gram + DCT8,2,0,1
+32,19,rms_p2p_gram_dct16,0,0,0,0.723333333333333,0,RMS/P2P + Gram + DCT16,3,0,1
+32,19,qr_hybrid_16,0,0,0,0.693333333333333,0,QR hybrid (16),4,0,1
+32,19,strain_gram_dct16,0,0,0,0.463333333333333,0,Gram + DCT16,5,0,1
+32,19,signed_dct16,0,0,0,0.45,0,Signed DCT16,6,0,1
+32,19,qr_hybrid_48,0,0,0,0.183333333333333,0,QR hybrid (48),7,0,1
+32,19,strain_gram,0,0,0,0.173333333333333,0,Normalised strain Gram,8,0,1
+32,19,absolute_rms_p2p_gram,0,0,0,0.126666666666667,0,Absolute RMS/P2P + Gram,9,0,1
+32,19,qr_hybrid_32,0,0,0,0.0533333333333333,0,QR hybrid (32),10,0,1
+32,19,qr_hybrid_24,0,0,0,0.04,0,QR hybrid (24),11,0,1
+32,19,rms_p2p_gram,0,0,0,0.0233333333333333,0,RMS/P2P + normalised Gram,12,0,1
+32,19,area_rms_p2p,0,0,0,0.00333333333333333,0,Signed area + RMS/P2P,13,0,1
+32,20,area_gram_dct8,0,0,0.265333333333333,0.81,0,Area + Gram + DCT8,1,1,1
+32,20,rms_p2p_gram,0,0,0.185333333333333,0.06,0,RMS/P2P + normalised Gram,2,0,1
+32,21,area_gram_dct8,0,0,0,0.763333333333333,0,Area + Gram + DCT8,1,1,1
+32,21,rms_p2p_gram_dct8,0,0,0,0.76,0,RMS/P2P + Gram + DCT8,2,0,1
+32,21,rms_p2p_gram_dct16,0,0,0,0.723333333333333,0,RMS/P2P + Gram + DCT16,3,0,1
+32,21,qr_hybrid_16,0,0,0,0.683333333333333,0,QR hybrid (16),4,0,1
+32,21,strain_gram_dct16,0,0,0,0.46,0,Gram + DCT16,5,0,1
+32,21,signed_dct16,0,0,0,0.456666666666667,0,Signed DCT16,6,0,1
+32,21,strain_gram,0,0,0,0.21,0,Normalised strain Gram,7,0,1
+32,21,qr_hybrid_48,0,0,0,0.186666666666667,0,QR hybrid (48),8,0,1
+32,21,absolute_rms_p2p_gram,0,0,0,0.126666666666667,0,Absolute RMS/P2P + Gram,9,0,1
+32,21,qr_hybrid_32,0,0,0,0.04,0,QR hybrid (32),10,0,1
+32,21,rms_p2p_gram,0,0,0,0.0266666666666667,0,RMS/P2P + normalised Gram,11,0,1
+32,21,qr_hybrid_24,0,0,0,0.02,0,QR hybrid (24),12,0,1
+32,21,area_rms_p2p,0,0,0,0.00333333333333333,0,Signed area + RMS/P2P,13,0,1
+32,22,qr_hybrid_16,0.00333333333333333,0.00333333333333333,0.140666666666667,0.683333333333333,0.03,QR hybrid (16),1,1,1
+32,22,rms_p2p_gram_dct16,0,0,0.148,0.726666666666667,0,RMS/P2P + Gram + DCT16,2,0,1
+32,23,area_gram_dct8,0,0,0,0.776666666666667,0,Area + Gram + DCT8,1,1,1
+32,23,rms_p2p_gram_dct8,0,0,0,0.763333333333333,0,RMS/P2P + Gram + DCT8,2,0,1
+32,23,rms_p2p_gram_dct16,0,0,0,0.72,0,RMS/P2P + Gram + DCT16,3,0,1
+32,23,qr_hybrid_16,0,0,0,0.663333333333333,0,QR hybrid (16),4,0,1
+32,23,signed_dct16,0,0,0,0.446666666666667,0,Signed DCT16,5,0,1
+32,23,strain_gram_dct16,0,0,0,0.41,0,Gram + DCT16,6,0,1
+32,23,strain_gram,0,0,0,0.21,0,Normalised strain Gram,7,0,1
+32,23,qr_hybrid_48,0,0,0,0.193333333333333,0,QR hybrid (48),8,0,1
+32,23,absolute_rms_p2p_gram,0,0,0,0.0966666666666667,0,Absolute RMS/P2P + Gram,9,0,1
+32,23,qr_hybrid_32,0,0,0,0.0533333333333333,0,QR hybrid (32),10,0,1
+32,23,rms_p2p_gram,0,0,0,0.0366666666666667,0,RMS/P2P + normalised Gram,11,0,1
+32,23,qr_hybrid_24,0,0,0,0.0333333333333333,0,QR hybrid (24),12,0,1
+32,23,area_rms_p2p,0,0,0,0.00333333333333333,0,Signed area + RMS/P2P,13,0,1
+32,24,qr_hybrid_16,0,0,0.00466666666666667,0.7,0.01,QR hybrid (16),1,1,1
+32,25,qr_hybrid_16,0,0,0.00466666666666667,0.696666666666667,0,QR hybrid (16),1,1,1
+32,26,area_rms_p2p,0,0,0.647333333333333,0.0133333333333333,0.0966666666666667,Signed area + RMS/P2P,1,1,1
+32,27,rms_p2p_gram,0,0,0.48,0,0,RMS/P2P + normalised Gram,1,1,1
+32,28,rms_p2p_gram,0,0,0.386,0.133333333333333,0.00333333333333333,RMS/P2P + normalised Gram,1,1,1
+32,29,rms_p2p_gram,0,0,0.251333333333333,0.15,0,RMS/P2P + normalised Gram,1,1,1
+32,30,area_gram_dct8,0,0,0,0.756666666666667,0,Area + Gram + DCT8,1,1,1
+32,30,rms_p2p_gram_dct16,0,0,0,0.706666666666667,0,RMS/P2P + Gram + DCT16,2,0,1
+32,30,rms_p2p_gram_dct8,0,0,0,0.703333333333333,0,RMS/P2P + Gram + DCT8,3,0,1
+32,30,qr_hybrid_16,0,0,0,0.696666666666667,0,QR hybrid (16),4,0,1
+32,30,strain_gram_dct16,0,0,0,0.463333333333333,0,Gram + DCT16,5,0,1
+32,30,signed_dct16,0,0,0,0.446666666666667,0,Signed DCT16,6,0,1
+32,30,qr_hybrid_48,0,0,0,0.183333333333333,0,QR hybrid (48),7,0,1
+32,30,absolute_rms_p2p_gram,0,0,0,0.126666666666667,0,Absolute RMS/P2P + Gram,8,0,1
+32,30,strain_gram,0,0,0,0.0966666666666667,0,Normalised strain Gram,9,0,1
+32,30,qr_hybrid_32,0,0,0,0.0533333333333333,0,QR hybrid (32),10,0,1
+32,30,qr_hybrid_24,0,0,0,0.0366666666666667,0,QR hybrid (24),11,0,1
+32,30,rms_p2p_gram,0,0,0,0.01,0,RMS/P2P + normalised Gram,12,0,1
+32,30,area_rms_p2p,0,0,0,0.00333333333333333,0,Signed area + RMS/P2P,13,0,1
+32,31,area_gram_dct8,0,0,0,0.75,0,Area + Gram + DCT8,1,1,1
+32,31,rms_p2p_gram_dct8,0,0,0,0.74,0,RMS/P2P + Gram + DCT8,2,0,1
+32,31,qr_hybrid_16,0,0,0,0.696666666666667,0,QR hybrid (16),3,0,1
+32,31,rms_p2p_gram_dct16,0,0,0,0.646666666666667,0,RMS/P2P + Gram + DCT16,4,0,1
+32,31,signed_dct16,0,0,0,0.386666666666667,0,Signed DCT16,5,0,1
+32,31,strain_gram_dct16,0,0,0,0.37,0,Gram + DCT16,6,0,1
+32,31,strain_gram,0,0,0,0.21,0,Normalised strain Gram,7,0,1
+32,31,qr_hybrid_48,0,0,0,0.186666666666667,0,QR hybrid (48),8,0,1
+32,31,absolute_rms_p2p_gram,0,0,0,0.133333333333333,0,Absolute RMS/P2P + Gram,9,0,1
+32,31,qr_hybrid_32,0,0,0,0.0466666666666667,0,QR hybrid (32),10,0,1
+32,31,qr_hybrid_24,0,0,0,0.0333333333333333,0,QR hybrid (24),11,0,1
+32,31,rms_p2p_gram,0,0,0,0.0266666666666667,0,RMS/P2P + normalised Gram,12,0,1
+32,31,area_rms_p2p,0,0,0,0.00333333333333333,0,Signed area + RMS/P2P,13,0,1
+32,32,rms_p2p_gram_dct16,0.906666666666667,0.906666666666667,0.980666666666667,0.92,0.983333333333333,RMS/P2P + Gram + DCT16,1,1,1
+32,32,area_gram_dct8,0.9,0.9,0.98,0.943333333333333,0.93,Area + Gram + DCT8,2,0,1
+32,33,qr_hybrid_24,0.13,0.13,0.752,0.276666666666667,0.45,QR hybrid (24),1,1,1
+32,34,qr_hybrid_24,0.00333333333333333,0.00333333333333333,0.501333333333333,0.156666666666667,0.00333333333333333,QR hybrid (24),1,1,1
+32,34,qr_hybrid_48,0,0,0.526666666666667,0.38,0.0233333333333333,QR hybrid (48),2,0,1
+32,34,rms_p2p_gram,0,0,0.521333333333333,0.0133333333333333,0,RMS/P2P + normalised Gram,3,0,1
+32,35,rms_p2p_gram,0.183333333333333,0.183333333333333,0.836666666666667,0.2,0.813333333333333,RMS/P2P + normalised Gram,1,1,1
+32,36,rms_p2p_gram,0,0,0.393333333333333,0.03,0,RMS/P2P + normalised Gram,1,1,1
+32,37,qr_hybrid_48,0,0,0.01,0.0566666666666667,0,QR hybrid (48),1,1,1
+32,38,rms_p2p_gram,0,0,0.602,0.00333333333333333,0.02,RMS/P2P + normalised Gram,1,1,1
+32,39,area_rms_p2p,0.12,0.12,0.771333333333333,0.12,0.82,Signed area + RMS/P2P,1,1,1
+32,39,rms_p2p_gram,0,0,0.782,0.01,0.0333333333333333,RMS/P2P + normalised Gram,2,0,1
+32,40,qr_hybrid_16,0,0,0.364666666666667,0.61,0.00666666666666667,QR hybrid (16),1,1,1
+32,40,absolute_rms_p2p_gram,0,0,0.329333333333333,0.09,0.01,Absolute RMS/P2P + Gram,2,0,1
+32,41,area_gram_dct8,0,0,0,0.753333333333333,0,Area + Gram + DCT8,1,1,1
+32,41,rms_p2p_gram_dct8,0,0,0,0.75,0,RMS/P2P + Gram + DCT8,2,0,1
+32,41,qr_hybrid_16,0,0,0,0.673333333333333,0,QR hybrid (16),3,0,1
+32,41,rms_p2p_gram_dct16,0,0,0,0.57,0,RMS/P2P + Gram + DCT16,4,0,1
+32,41,strain_gram,0,0,0,0.243333333333333,0,Normalised strain Gram,5,0,1
+32,41,signed_dct16,0,0,0,0.203333333333333,0,Signed DCT16,6,0,1
+32,41,strain_gram_dct16,0,0,0,0.133333333333333,0,Gram + DCT16,7,0,1
+32,41,qr_hybrid_48,0,0,0,0.11,0,QR hybrid (48),8,0,1
+32,41,absolute_rms_p2p_gram,0,0,0,0.0533333333333333,0,Absolute RMS/P2P + Gram,9,0,1
+32,41,rms_p2p_gram,0,0,0,0.0466666666666667,0,RMS/P2P + normalised Gram,10,0,1
+32,41,qr_hybrid_32,0,0,0,0.01,0,QR hybrid (32),11,0,1
+32,41,area_rms_p2p,0,0,0,0.00333333333333333,0,Signed area + RMS/P2P,12,0,1
+32,41,qr_hybrid_24,0,0,0,0,0,QR hybrid (24),13,0,1
+32,42,qr_hybrid_16,0,0,0,0.706666666666667,0,QR hybrid (16),1,1,1
+32,42,area_gram_dct8,0,0,0,0.573333333333333,0,Area + Gram + DCT8,2,0,1
+32,42,rms_p2p_gram_dct16,0,0,0,0.533333333333333,0,RMS/P2P + Gram + DCT16,3,0,1
+32,42,rms_p2p_gram_dct8,0,0,0,0.52,0,RMS/P2P + Gram + DCT8,4,0,1
+32,42,strain_gram_dct16,0,0,0,0.363333333333333,0,Gram + DCT16,5,0,1
+32,42,signed_dct16,0,0,0,0.296666666666667,0,Signed DCT16,6,0,1
+32,42,qr_hybrid_48,0,0,0,0.106666666666667,0,QR hybrid (48),7,0,1
+32,42,qr_hybrid_32,0,0,0,0.06,0,QR hybrid (32),8,0,1
+32,42,absolute_rms_p2p_gram,0,0,0,0.0433333333333333,0,Absolute RMS/P2P + Gram,9,0,1
+32,42,qr_hybrid_24,0,0,0,0.0433333333333333,0,QR hybrid (24),10,0,1
+32,42,strain_gram,0,0,0,0.0333333333333333,0,Normalised strain Gram,11,0,1
+32,42,rms_p2p_gram,0,0,0,0.00333333333333333,0,RMS/P2P + normalised Gram,12,0,1
+32,42,area_rms_p2p,0,0,0,0,0,Signed area + RMS/P2P,13,0,1
+32,43,area_gram_dct8,0,0,0,0.763333333333333,0,Area + Gram + DCT8,1,1,1
+32,43,rms_p2p_gram_dct16,0,0,0,0.716666666666667,0,RMS/P2P + Gram + DCT16,2,0,1
+32,43,qr_hybrid_16,0,0,0,0.713333333333333,0,QR hybrid (16),3,0,1
+32,43,rms_p2p_gram_dct8,0,0,0,0.69,0,RMS/P2P + Gram + DCT8,4,0,1
+32,43,strain_gram_dct16,0,0,0,0.476666666666667,0,Gram + DCT16,5,0,1
+32,43,signed_dct16,0,0,0,0.45,0,Signed DCT16,6,0,1
+32,43,qr_hybrid_48,0,0,0,0.18,0,QR hybrid (48),7,0,1
+32,43,absolute_rms_p2p_gram,0,0,0,0.08,0,Absolute RMS/P2P + Gram,8,0,1
+32,43,qr_hybrid_32,0,0,0,0.0633333333333333,0,QR hybrid (32),9,0,1
+32,43,qr_hybrid_24,0,0,0,0.0466666666666667,0,QR hybrid (24),10,0,1
+32,43,strain_gram,0,0,0,0.01,0,Normalised strain Gram,11,0,1
+32,43,rms_p2p_gram,0,0,0,0.00333333333333333,0,RMS/P2P + normalised Gram,12,0,1
+32,43,area_rms_p2p,0,0,0,0,0,Signed area + RMS/P2P,13,0,1
+32,44,area_rms_p2p,0,0,0.00133333333333333,0.00333333333333333,0,Signed area + RMS/P2P,1,1,1
+32,45,qr_hybrid_16,0,0,0,0.696666666666667,0,QR hybrid (16),1,1,1
+32,45,rms_p2p_gram_dct16,0,0,0,0.67,0,RMS/P2P + Gram + DCT16,2,0,1
+32,45,area_gram_dct8,0,0,0,0.65,0,Area + Gram + DCT8,3,0,1
+32,45,rms_p2p_gram_dct8,0,0,0,0.616666666666667,0,RMS/P2P + Gram + DCT8,4,0,1
+32,45,strain_gram_dct16,0,0,0,0.46,0,Gram + DCT16,5,0,1
+32,45,signed_dct16,0,0,0,0.446666666666667,0,Signed DCT16,6,0,1
+32,45,strain_gram,0,0,0,0.21,0,Normalised strain Gram,7,0,1
+32,45,qr_hybrid_48,0,0,0,0.12,0,QR hybrid (48),8,0,1
+32,45,absolute_rms_p2p_gram,0,0,0,0.07,0,Absolute RMS/P2P + Gram,9,0,1
+32,45,qr_hybrid_32,0,0,0,0.0366666666666667,0,QR hybrid (32),10,0,1
+32,45,qr_hybrid_24,0,0,0,0.0166666666666667,0,QR hybrid (24),11,0,1
+32,45,rms_p2p_gram,0,0,0,0.01,0,RMS/P2P + normalised Gram,12,0,1
+32,45,area_rms_p2p,0,0,0,0,0,Signed area + RMS/P2P,13,0,1
+32,46,qr_hybrid_16,0.00666666666666667,0.00666666666666667,0.129333333333333,0.723333333333333,0.07,QR hybrid (16),1,1,1
+32,46,area_gram_dct8,0.00333333333333333,0.00333333333333333,0.462,0.743333333333333,0.0133333333333333,Area + Gram + DCT8,2,0,1
+32,47,absolute_rms_p2p_gram,0.576666666666667,0.576666666666667,0.898,0.596666666666667,0.753333333333333,Absolute RMS/P2P + Gram,1,1,1
+32,48,rms_p2p_gram_dct8,0.0233333333333333,0.0233333333333333,0.216666666666667,0.85,0.0433333333333333,RMS/P2P + Gram + DCT8,1,1,1
+32,48,area_gram_dct8,0.0166666666666667,0.0166666666666667,0.396,0.86,0.0366666666666667,Area + Gram + DCT8,2,0,1
+32,49,rms_p2p_gram_dct8,0.906666666666667,0.906666666666667,0.981333333333333,0.946666666666667,0.96,RMS/P2P + Gram + DCT8,1,1,1
+32,50,area_gram_dct8,0,0,0,0.78,0,Area + Gram + DCT8,1,1,1
+32,50,rms_p2p_gram_dct8,0,0,0,0.736666666666667,0,RMS/P2P + Gram + DCT8,2,0,1
+32,50,rms_p2p_gram_dct16,0,0,0,0.716666666666667,0,RMS/P2P + Gram + DCT16,3,0,1
+32,50,qr_hybrid_16,0,0,0,0.696666666666667,0,QR hybrid (16),4,0,1
+32,50,strain_gram_dct16,0,0,0,0.49,0,Gram + DCT16,5,0,1
+32,50,signed_dct16,0,0,0,0.456666666666667,0,Signed DCT16,6,0,1
+32,50,qr_hybrid_48,0,0,0,0.193333333333333,0,QR hybrid (48),7,0,1
+32,50,absolute_rms_p2p_gram,0,0,0,0.126666666666667,0,Absolute RMS/P2P + Gram,8,0,1
+32,50,qr_hybrid_32,0,0,0,0.0666666666666667,0,QR hybrid (32),9,0,1
+32,50,qr_hybrid_24,0,0,0,0.0433333333333333,0,QR hybrid (24),10,0,1
+32,50,strain_gram,0,0,0,0.02,0,Normalised strain Gram,11,0,1
+32,50,rms_p2p_gram,0,0,0,0.00333333333333333,0,RMS/P2P + normalised Gram,12,0,1
+32,50,area_rms_p2p,0,0,0,0,0,Signed area + RMS/P2P,13,0,1
+32,51,area_gram_dct8,0,0,0,0.786666666666667,0,Area + Gram + DCT8,1,1,1
+32,51,rms_p2p_gram_dct8,0,0,0,0.746666666666667,0,RMS/P2P + Gram + DCT8,2,0,1
+32,51,qr_hybrid_16,0,0,0,0.72,0.0133333333333333,QR hybrid (16),3,0,1
+32,51,rms_p2p_gram_dct16,0,0,0,0.716666666666667,0,RMS/P2P + Gram + DCT16,4,0,1
+32,51,strain_gram_dct16,0,0,0,0.476666666666667,0,Gram + DCT16,5,0,1
+32,51,signed_dct16,0,0,0,0.446666666666667,0,Signed DCT16,6,0,1
+32,51,qr_hybrid_48,0,0,0,0.196666666666667,0,QR hybrid (48),7,0,1
+32,51,absolute_rms_p2p_gram,0,0,0,0.126666666666667,0,Absolute RMS/P2P + Gram,8,0,1
+32,51,qr_hybrid_32,0,0,0,0.0733333333333333,0,QR hybrid (32),9,0,1
+32,51,strain_gram,0,0,0,0.07,0,Normalised strain Gram,10,0,1
+32,51,qr_hybrid_24,0,0,0,0.0566666666666667,0.00666666666666667,QR hybrid (24),11,0,1
+32,51,rms_p2p_gram,0,0,0,0.01,0,RMS/P2P + normalised Gram,12,0,1
+32,51,area_rms_p2p,0,0,0,0,0,Signed area + RMS/P2P,13,0,1
+32,52,rms_p2p_gram,0,0,0.0126666666666667,0.0233333333333333,0,RMS/P2P + normalised Gram,1,1,1
+32,53,area_gram_dct8,0,0,0,0.773333333333333,0,Area + Gram + DCT8,1,1,1
+32,53,rms_p2p_gram_dct8,0,0,0,0.75,0,RMS/P2P + Gram + DCT8,2,0,1
+32,53,rms_p2p_gram_dct16,0,0,0,0.723333333333333,0,RMS/P2P + Gram + DCT16,3,0,1
+32,53,qr_hybrid_16,0,0,0,0.656666666666667,0,QR hybrid (16),4,0,1
+32,53,strain_gram_dct16,0,0,0,0.463333333333333,0,Gram + DCT16,5,0,1
+32,53,signed_dct16,0,0,0,0.45,0,Signed DCT16,6,0,1
+32,53,strain_gram,0,0,0,0.21,0,Normalised strain Gram,7,0,1
+32,53,qr_hybrid_48,0,0,0,0.183333333333333,0,QR hybrid (48),8,0,1
+32,53,absolute_rms_p2p_gram,0,0,0,0.126666666666667,0.04,Absolute RMS/P2P + Gram,9,0,1
+32,53,qr_hybrid_32,0,0,0,0.0433333333333333,0,QR hybrid (32),10,0,1
+32,53,qr_hybrid_24,0,0,0,0.0266666666666667,0,QR hybrid (24),11,0,1
+32,53,rms_p2p_gram,0,0,0,0.0233333333333333,0,RMS/P2P + normalised Gram,12,0,1
+32,53,area_rms_p2p,0,0,0,0.00333333333333333,0,Signed area + RMS/P2P,13,0,1
+32,54,qr_hybrid_16,0,0,0,0.7,0,QR hybrid (16),1,1,1
+32,54,rms_p2p_gram_dct8,0,0,0,0.63,0,RMS/P2P + Gram + DCT8,2,0,1
+32,54,area_gram_dct8,0,0,0,0.62,0,Area + Gram + DCT8,3,0,1
+32,54,rms_p2p_gram_dct16,0,0,0,0.606666666666667,0,RMS/P2P + Gram + DCT16,4,0,1
+32,54,strain_gram_dct16,0,0,0,0.456666666666667,0,Gram + DCT16,5,0,1
+32,54,signed_dct16,0,0,0,0.45,0,Signed DCT16,6,0,1
+32,54,strain_gram,0,0,0,0.223333333333333,0,Normalised strain Gram,7,0,1
+32,54,qr_hybrid_48,0,0,0,0.1,0,QR hybrid (48),8,0,1
+32,54,absolute_rms_p2p_gram,0,0,0,0.07,0,Absolute RMS/P2P + Gram,9,0,1
+32,54,qr_hybrid_32,0,0,0,0.0366666666666667,0,QR hybrid (32),10,0,1
+32,54,qr_hybrid_24,0,0,0,0.02,0,QR hybrid (24),11,0,1
+32,54,rms_p2p_gram,0,0,0,0.0166666666666667,0,RMS/P2P + normalised Gram,12,0,1
+32,54,area_rms_p2p,0,0,0,0,0,Signed area + RMS/P2P,13,0,1
+32,55,area_gram_dct8,0,0,0,0.756666666666667,0,Area + Gram + DCT8,1,1,1
+32,55,rms_p2p_gram_dct8,0,0,0,0.743333333333333,0,RMS/P2P + Gram + DCT8,2,0,1
+32,55,rms_p2p_gram_dct16,0,0,0,0.723333333333333,0,RMS/P2P + Gram + DCT16,3,0,1
+32,55,qr_hybrid_16,0,0,0,0.7,0,QR hybrid (16),4,0,1
+32,55,strain_gram_dct16,0,0,0,0.463333333333333,0,Gram + DCT16,5,0,1
+32,55,signed_dct16,0,0,0,0.446666666666667,0,Signed DCT16,6,0,1
+32,55,strain_gram,0,0,0,0.21,0,Normalised strain Gram,7,0,1
+32,55,qr_hybrid_48,0,0,0,0.176666666666667,0,QR hybrid (48),8,0,1
+32,55,absolute_rms_p2p_gram,0,0,0,0.153333333333333,0.246666666666667,Absolute RMS/P2P + Gram,9,0,1
+32,55,qr_hybrid_32,0,0,0,0.0533333333333333,0,QR hybrid (32),10,0,1
+32,55,qr_hybrid_24,0,0,0,0.0366666666666667,0,QR hybrid (24),11,0,1
+32,55,rms_p2p_gram,0,0,0,0.0266666666666667,0,RMS/P2P + normalised Gram,12,0,1
+32,55,area_rms_p2p,0,0,0,0.00333333333333333,0,Signed area + RMS/P2P,13,0,1
+32,56,area_gram_dct8,0,0,0,0.76,0,Area + Gram + DCT8,1,1,1
+32,56,rms_p2p_gram_dct8,0,0,0,0.756666666666667,0,RMS/P2P + Gram + DCT8,2,0,1
+32,56,rms_p2p_gram_dct16,0,0,0,0.713333333333333,0,RMS/P2P + Gram + DCT16,3,0,1
+32,56,qr_hybrid_16,0,0,0,0.7,0,QR hybrid (16),4,0,1
+32,56,strain_gram_dct16,0,0,0,0.446666666666667,0,Gram + DCT16,5,0,1
+32,56,signed_dct16,0,0,0,0.43,0,Signed DCT16,6,0,1
+32,56,strain_gram,0,0,0,0.23,0,Normalised strain Gram,7,0,1
+32,56,qr_hybrid_48,0,0,0,0.183333333333333,0,QR hybrid (48),8,0,1
+32,56,absolute_rms_p2p_gram,0,0,0,0.146666666666667,0,Absolute RMS/P2P + Gram,9,0,1
+32,56,qr_hybrid_32,0,0,0,0.0466666666666667,0,QR hybrid (32),10,0,1
+32,56,rms_p2p_gram,0,0,0,0.0366666666666667,0,RMS/P2P + normalised Gram,11,0,1
+32,56,qr_hybrid_24,0,0,0,0.0333333333333333,0,QR hybrid (24),12,0,1
+32,56,area_rms_p2p,0,0,0,0.00333333333333333,0,Signed area + RMS/P2P,13,0,1
+32,57,area_gram_dct8,0,0,0,0.763333333333333,0,Area + Gram + DCT8,1,1,1
+32,57,rms_p2p_gram_dct8,0,0,0,0.743333333333333,0,RMS/P2P + Gram + DCT8,2,0,1
+32,57,rms_p2p_gram_dct16,0,0,0,0.716666666666667,0,RMS/P2P + Gram + DCT16,3,0,1
+32,57,qr_hybrid_16,0,0,0,0.616666666666667,0,QR hybrid (16),4,0,1
+32,57,strain_gram_dct16,0,0,0,0.456666666666667,0,Gram + DCT16,5,0,1
+32,57,signed_dct16,0,0,0,0.436666666666667,0,Signed DCT16,6,0,1
+32,57,strain_gram,0,0,0,0.23,0,Normalised strain Gram,7,0,1
+32,57,qr_hybrid_48,0,0,0,0.183333333333333,0.00333333333333333,QR hybrid (48),8,0,1
+32,57,absolute_rms_p2p_gram,0,0,0,0.126666666666667,0.0133333333333333,Absolute RMS/P2P + Gram,9,0,1
+32,57,qr_hybrid_32,0,0,0,0.0533333333333333,0,QR hybrid (32),10,0,1
+32,57,qr_hybrid_24,0,0,0,0.0366666666666667,0,QR hybrid (24),11,0,1
+32,57,rms_p2p_gram,0,0,0,0.03,0,RMS/P2P + normalised Gram,12,0,1
+32,57,area_rms_p2p,0,0,0,0.0133333333333333,0,Signed area + RMS/P2P,13,0,1
+32,58,area_gram_dct8,0,0,0,0.763333333333333,0,Area + Gram + DCT8,1,1,1
+32,58,rms_p2p_gram_dct8,0,0,0,0.746666666666667,0,RMS/P2P + Gram + DCT8,2,0,1
+32,58,rms_p2p_gram_dct16,0,0,0,0.716666666666667,0,RMS/P2P + Gram + DCT16,3,0,1
+32,58,qr_hybrid_16,0,0,0,0.606666666666667,0,QR hybrid (16),4,0,1
+32,58,strain_gram_dct16,0,0,0,0.456666666666667,0,Gram + DCT16,5,0,1
+32,58,signed_dct16,0,0,0,0.446666666666667,0,Signed DCT16,6,0,1
+32,58,strain_gram,0,0,0,0.226666666666667,0,Normalised strain Gram,7,0,1
+32,58,qr_hybrid_48,0,0,0,0.183333333333333,0.01,QR hybrid (48),8,0,1
+32,58,absolute_rms_p2p_gram,0,0,0,0.126666666666667,0.01,Absolute RMS/P2P + Gram,9,0,1
+32,58,qr_hybrid_32,0,0,0,0.0533333333333333,0,QR hybrid (32),10,0,1
+32,58,qr_hybrid_24,0,0,0,0.0366666666666667,0,QR hybrid (24),11,0,1
+32,58,rms_p2p_gram,0,0,0,0.0266666666666667,0.00666666666666667,RMS/P2P + normalised Gram,12,0,1
+32,58,area_rms_p2p,0,0,0,0.0133333333333333,0.45,Signed area + RMS/P2P,13,0,1
+32,59,area_gram_dct8,0,0,0,0.763333333333333,0,Area + Gram + DCT8,1,1,1
+32,59,rms_p2p_gram_dct8,0,0,0,0.75,0,RMS/P2P + Gram + DCT8,2,0,1
+32,59,qr_hybrid_16,0,0,0,0.69,0,QR hybrid (16),3,0,1
+32,59,rms_p2p_gram_dct16,0,0,0,0.673333333333333,0,RMS/P2P + Gram + DCT16,4,0,1
+32,59,signed_dct16,0,0,0,0.42,0,Signed DCT16,5,0,1
+32,59,strain_gram_dct16,0,0,0,0.39,0,Gram + DCT16,6,0,1
+32,59,strain_gram,0,0,0,0.236666666666667,0,Normalised strain Gram,7,0,1
+32,59,qr_hybrid_48,0,0,0,0.166666666666667,0,QR hybrid (48),8,0,1
+32,59,absolute_rms_p2p_gram,0,0,0,0.126666666666667,0,Absolute RMS/P2P + Gram,9,0,1
+32,59,qr_hybrid_32,0,0,0,0.04,0,QR hybrid (32),10,0,1
+32,59,rms_p2p_gram,0,0,0,0.0366666666666667,0,RMS/P2P + normalised Gram,11,0,1
+32,59,qr_hybrid_24,0,0,0,0.02,0,QR hybrid (24),12,0,1
+32,59,area_rms_p2p,0,0,0,0.00333333333333333,0,Signed area + RMS/P2P,13,0,1
+32,60,area_gram_dct8,0,0,0,0.75,0,Area + Gram + DCT8,1,1,1
+32,60,rms_p2p_gram_dct8,0,0,0,0.73,0,RMS/P2P + Gram + DCT8,2,0,1
+32,60,qr_hybrid_16,0,0,0,0.69,0,QR hybrid (16),3,0,1
+32,60,rms_p2p_gram_dct16,0,0,0,0.68,0,RMS/P2P + Gram + DCT16,4,0,1
+32,60,strain_gram_dct16,0,0,0,0.443333333333333,0,Gram + DCT16,5,0,1
+32,60,signed_dct16,0,0,0,0.426666666666667,0,Signed DCT16,6,0,1
+32,60,strain_gram,0,0,0,0.183333333333333,0,Normalised strain Gram,7,0,1
+32,60,qr_hybrid_48,0,0,0,0.176666666666667,0,QR hybrid (48),8,0,1
+32,60,absolute_rms_p2p_gram,0,0,0,0.126666666666667,0,Absolute RMS/P2P + Gram,9,0,1
+32,60,qr_hybrid_32,0,0,0,0.0533333333333333,0,QR hybrid (32),10,0,1
+32,60,qr_hybrid_24,0,0,0,0.0366666666666667,0,QR hybrid (24),11,0,1
+32,60,rms_p2p_gram,0,0,0,0.0233333333333333,0,RMS/P2P + normalised Gram,12,0,1
+32,60,area_rms_p2p,0,0,0,0.00333333333333333,0,Signed area + RMS/P2P,13,0,1
+32,61,area_gram_dct8,0,0,0,0.77,0,Area + Gram + DCT8,1,1,1
+32,61,rms_p2p_gram_dct8,0,0,0,0.763333333333333,0,RMS/P2P + Gram + DCT8,2,0,1
+32,61,rms_p2p_gram_dct16,0,0,0,0.73,0,RMS/P2P + Gram + DCT16,3,0,1
+32,61,qr_hybrid_16,0,0,0,0.69,0,QR hybrid (16),4,0,1
+32,61,strain_gram_dct16,0,0,0,0.456666666666667,0,Gram + DCT16,5,0,1
+32,61,signed_dct16,0,0,0,0.446666666666667,0,Signed DCT16,6,0,1
+32,61,strain_gram,0,0,0,0.24,0,Normalised strain Gram,7,0,1
+32,61,qr_hybrid_48,0,0,0,0.186666666666667,0,QR hybrid (48),8,0,1
+32,61,absolute_rms_p2p_gram,0,0,0,0.126666666666667,0,Absolute RMS/P2P + Gram,9,0,1
+32,61,qr_hybrid_32,0,0,0,0.0533333333333333,0,QR hybrid (32),10,0,1
+32,61,rms_p2p_gram,0,0,0,0.04,0,RMS/P2P + normalised Gram,11,0,1
+32,61,qr_hybrid_24,0,0,0,0.0333333333333333,0,QR hybrid (24),12,0,1
+32,61,area_rms_p2p,0,0,0,0.00333333333333333,0,Signed area + RMS/P2P,13,0,1
+32,62,area_gram_dct8,0,0,0,0.736666666666667,0,Area + Gram + DCT8,1,1,1
+32,62,rms_p2p_gram_dct8,0,0,0,0.716666666666667,0,RMS/P2P + Gram + DCT8,2,0,1
+32,62,qr_hybrid_16,0,0,0,0.696666666666667,0,QR hybrid (16),3,0,1
+32,62,rms_p2p_gram_dct16,0,0,0,0.663333333333333,0,RMS/P2P + Gram + DCT16,4,0,1
+32,62,strain_gram_dct16,0,0,0,0.433333333333333,0,Gram + DCT16,5,0,1
+32,62,signed_dct16,0,0,0,0.42,0,Signed DCT16,6,0,1
+32,62,qr_hybrid_48,0,0,0,0.166666666666667,0,QR hybrid (48),7,0,1
+32,62,strain_gram,0,0,0,0.153333333333333,0,Normalised strain Gram,8,0,1
+32,62,absolute_rms_p2p_gram,0,0,0,0.126666666666667,0,Absolute RMS/P2P + Gram,9,0,1
+32,62,qr_hybrid_32,0,0,0,0.0466666666666667,0,QR hybrid (32),10,0,1
+32,62,qr_hybrid_24,0,0,0,0.0333333333333333,0,QR hybrid (24),11,0,1
+32,62,rms_p2p_gram,0,0,0,0.0233333333333333,0,RMS/P2P + normalised Gram,12,0,1
+32,62,area_rms_p2p,0,0,0,0.00333333333333333,0,Signed area + RMS/P2P,13,0,1
+32,63,area_gram_dct8,0,0,0,0.756666666666667,0,Area + Gram + DCT8,1,1,1
+32,63,rms_p2p_gram_dct8,0,0,0,0.733333333333333,0,RMS/P2P + Gram + DCT8,2,0,1
+32,63,rms_p2p_gram_dct16,0,0,0,0.716666666666667,0,RMS/P2P + Gram + DCT16,3,0,1
+32,63,qr_hybrid_16,0,0,0,0.69,0,QR hybrid (16),4,0,1
+32,63,strain_gram_dct16,0,0,0,0.456666666666667,0,Gram + DCT16,5,0,1
+32,63,signed_dct16,0,0,0,0.446666666666667,0,Signed DCT16,6,0,1
+32,63,strain_gram,0,0,0,0.186666666666667,0,Normalised strain Gram,7,0,1
+32,63,qr_hybrid_48,0,0,0,0.183333333333333,0,QR hybrid (48),8,0,1
+32,63,absolute_rms_p2p_gram,0,0,0,0.126666666666667,0,Absolute RMS/P2P + Gram,9,0,1
+32,63,qr_hybrid_32,0,0,0,0.0533333333333333,0,QR hybrid (32),10,0,1
+32,63,qr_hybrid_24,0,0,0,0.0366666666666667,0,QR hybrid (24),11,0,1
+32,63,rms_p2p_gram,0,0,0,0.0233333333333333,0,RMS/P2P + normalised Gram,12,0,1
+32,63,area_rms_p2p,0,0,0,0.00333333333333333,0,Signed area + RMS/P2P,13,0,1
+32,64,area_gram_dct8,0,0,0,0.756666666666667,0,Area + Gram + DCT8,1,1,1
+32,64,rms_p2p_gram_dct8,0,0,0,0.726666666666667,0,RMS/P2P + Gram + DCT8,2,0,1
+32,64,rms_p2p_gram_dct16,0,0,0,0.716666666666667,0,RMS/P2P + Gram + DCT16,3,0,1
+32,64,qr_hybrid_16,0,0,0,0.69,0,QR hybrid (16),4,0,1
+32,64,strain_gram_dct16,0,0,0,0.456666666666667,0,Gram + DCT16,5,0,1
+32,64,signed_dct16,0,0,0,0.446666666666667,0,Signed DCT16,6,0,1
+32,64,strain_gram,0,0,0,0.196666666666667,0,Normalised strain Gram,7,0,1
+32,64,qr_hybrid_48,0,0,0,0.183333333333333,0,QR hybrid (48),8,0,1
+32,64,absolute_rms_p2p_gram,0,0,0,0.126666666666667,0,Absolute RMS/P2P + Gram,9,0,1
+32,64,qr_hybrid_32,0,0,0,0.0533333333333333,0,QR hybrid (32),10,0,1
+32,64,qr_hybrid_24,0,0,0,0.0366666666666667,0,QR hybrid (24),11,0,1
+32,64,rms_p2p_gram,0,0,0,0.0233333333333333,0,RMS/P2P + normalised Gram,12,0,1
+32,64,area_rms_p2p,0,0,0,0.00333333333333333,0,Signed area + RMS/P2P,13,0,1
+32,65,area_gram_dct8,0,0,0,0.756666666666667,0,Area + Gram + DCT8,1,1,1
+32,65,rms_p2p_gram_dct8,0,0,0,0.733333333333333,0,RMS/P2P + Gram + DCT8,2,0,1
+32,65,rms_p2p_gram_dct16,0,0,0,0.716666666666667,0,RMS/P2P + Gram + DCT16,3,0,1
+32,65,qr_hybrid_16,0,0,0,0.69,0,QR hybrid (16),4,0,1
+32,65,strain_gram_dct16,0,0,0,0.456666666666667,0,Gram + DCT16,5,0,1
+32,65,signed_dct16,0,0,0,0.446666666666667,0,Signed DCT16,6,0,1
+32,65,strain_gram,0,0,0,0.206666666666667,0,Normalised strain Gram,7,0,1
+32,65,qr_hybrid_48,0,0,0,0.183333333333333,0,QR hybrid (48),8,0,1
+32,65,absolute_rms_p2p_gram,0,0,0,0.126666666666667,0,Absolute RMS/P2P + Gram,9,0,1
+32,65,qr_hybrid_32,0,0,0,0.0533333333333333,0,QR hybrid (32),10,0,1
+32,65,qr_hybrid_24,0,0,0,0.0366666666666667,0,QR hybrid (24),11,0,1
+32,65,rms_p2p_gram,0,0,0,0.0233333333333333,0,RMS/P2P + normalised Gram,12,0,1
+32,65,area_rms_p2p,0,0,0,0.00333333333333333,0,Signed area + RMS/P2P,13,0,1
+32,66,area_gram_dct8,0,0,0,0.753333333333333,0,Area + Gram + DCT8,1,1,1
+32,66,rms_p2p_gram_dct8,0,0,0,0.723333333333333,0,RMS/P2P + Gram + DCT8,2,0,1
+32,66,rms_p2p_gram_dct16,0,0,0,0.71,0,RMS/P2P + Gram + DCT16,3,0,1
+32,66,qr_hybrid_16,0,0,0,0.69,0,QR hybrid (16),4,0,1
+32,66,strain_gram_dct16,0,0,0,0.456666666666667,0,Gram + DCT16,5,0,1
+32,66,signed_dct16,0,0,0,0.446666666666667,0,Signed DCT16,6,0,1
+32,66,qr_hybrid_48,0,0,0,0.183333333333333,0,QR hybrid (48),7,0,1
+32,66,strain_gram,0,0,0,0.176666666666667,0,Normalised strain Gram,8,0,1
+32,66,absolute_rms_p2p_gram,0,0,0,0.126666666666667,0,Absolute RMS/P2P + Gram,9,0,1
+32,66,qr_hybrid_32,0,0,0,0.0533333333333333,0,QR hybrid (32),10,0,1
+32,66,qr_hybrid_24,0,0,0,0.0366666666666667,0,QR hybrid (24),11,0,1
+32,66,rms_p2p_gram,0,0,0,0.0233333333333333,0,RMS/P2P + normalised Gram,12,0,1
+32,66,area_rms_p2p,0,0,0,0.00333333333333333,0,Signed area + RMS/P2P,13,0,1
+32,67,area_gram_dct8,0,0,0,0.756666666666667,0,Area + Gram + DCT8,1,1,1
+32,67,rms_p2p_gram_dct8,0,0,0,0.736666666666667,0,RMS/P2P + Gram + DCT8,2,0,1
+32,67,rms_p2p_gram_dct16,0,0,0,0.716666666666667,0,RMS/P2P + Gram + DCT16,3,0,1
+32,67,qr_hybrid_16,0,0,0,0.69,0,QR hybrid (16),4,0,1
+32,67,strain_gram_dct16,0,0,0,0.456666666666667,0,Gram + DCT16,5,0,1
+32,67,signed_dct16,0,0,0,0.446666666666667,0,Signed DCT16,6,0,1
+32,67,strain_gram,0,0,0,0.206666666666667,0,Normalised strain Gram,7,0,1
+32,67,qr_hybrid_48,0,0,0,0.183333333333333,0,QR hybrid (48),8,0,1
+32,67,absolute_rms_p2p_gram,0,0,0,0.126666666666667,0,Absolute RMS/P2P + Gram,9,0,1
+32,67,qr_hybrid_32,0,0,0,0.0533333333333333,0,QR hybrid (32),10,0,1
+32,67,qr_hybrid_24,0,0,0,0.0366666666666667,0,QR hybrid (24),11,0,1
+32,67,rms_p2p_gram,0,0,0,0.0233333333333333,0,RMS/P2P + normalised Gram,12,0,1
+32,67,area_rms_p2p,0,0,0,0.00333333333333333,0,Signed area + RMS/P2P,13,0,1

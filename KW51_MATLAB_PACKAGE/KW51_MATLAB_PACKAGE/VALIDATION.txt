@@ -1,0 +1,5 @@
+Static validation only. No train archives opened; no solver executed.
+MISS_HIT: 36 MATLAB files parsed/linted with no findings.
+All referenced kw51_* helper functions are included.
+Bundled FE export contains all fields referenced by the solver.
+No MATLAB runtime numerical validation performed.

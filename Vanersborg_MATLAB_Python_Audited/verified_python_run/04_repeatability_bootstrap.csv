@@ -1,0 +1,10 @@
+configuration,window_events,trials,accumulated_threshold,detection_rate,SG9_SG10_selection_rate,joint_rate
+Physical sensors only,1,1000,45.157512991663886,1.0,1.0,1.0
+Physical sensors only,3,1000,134.24849403852764,1.0,1.0,1.0
+Physical sensors only,5,1000,202.40727133433276,1.0,1.0,1.0
+Reduced QR physical sensors,1,1000,40.768758253212134,0.295,1.0,0.295
+Reduced QR physical sensors,3,1000,97.81941723330846,0.605,1.0,0.605
+Reduced QR physical sensors,5,1000,154.8700762134048,0.447,1.0,0.447
+QR references + virtual sensors,1,1000,15.896287099645935,1.0,1.0,1.0
+QR references + virtual sensors,3,1000,42.90904353963862,1.0,1.0,1.0
+QR references + virtual sensors,5,1000,69.92179997963129,1.0,1.0,1.0

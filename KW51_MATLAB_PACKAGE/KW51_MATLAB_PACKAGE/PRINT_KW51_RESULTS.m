@@ -1,0 +1,184 @@
+function PRINT_KW51_RESULTS(outputRoot,plotAllLocations)
+%PRINT_KW51_RESULTS Redraw figures from output tables and saved trial matrices.
+% No raw train data are opened and no FE calculation/trials are rerun here.
+% Run PRINT_KW51_RESULTS after RUN_KW51, or call it alone to redraw results.
+% Outputs: PDF/PNG overview, probability/trial plots, per-location curves,
+% and 3-D detected-prediction maps using the saved individual trials.
+if nargin<1, outputRoot=fullfile(fileparts(mfilename('fullpath')),'outputs'); end
+if nargin<2, plotAllLocations=true; end
+tables=fullfile(outputRoot,'tables'); figures=fullfile(outputRoot,'figures');
+if ~isfolder(figures), mkdir(figures); end
+perLocation=fullfile(figures,'per_location'); if ~isfolder(perLocation), mkdir(perLocation); end
+spatial=fullfile(figures,'spatial_predictions'); if ~isfolder(spatial), mkdir(spatial); end
+R=readtable(fullfile(tables,'candidate_regions.csv'),'TextType','string');
+Z=readtable(fullfile(tables,'zone_definitions.csv'),'TextType','string');
+B=readtable(fullfile(tables,'retained_best_locations.csv'),'TextType','string');
+T=readtable(fullfile(tables,'best_feature_trials_for_every_location.csv'),'TextType','string');
+S=readtable(fullfile(tables,'strain_sensor_locations.csv'),'TextType','string');
+windows=unique(T.n_passages).';
+
+% All retained physical zones; measured sensor positions are red dots.
+f=newFigure(1300,670); ax=axes(f); drawBridge(ax,R,S);
+for j=1:height(B)
+    q=zoneElements(R,B.element_ids(j)); drawSegments(ax,q,'k',3);
+    text(ax,B.x_m(j),B.y_m(j),B.z_m(j)+1.2,sprintf('%d',j), ...
+        'FontWeight','bold','FontSize',10,'BackgroundColor','w');
+end
+title(ax,sprintf('Retained stiffness-loss zones (%d); red dots: measured strain sensors',height(B)));
+saveFigure(f,fullfile(figures,'01_retained_locations_3d'));
+
+% Detection-gated exact-zone probability, preserving every retained location.
+f=newFigure(650*numel(windows),500); layout=tiledlayout(f,1,numel(windows));
+for n=windows
+    ax=nexttile(layout); hold(ax,'on');
+    for j=1:height(B)
+        q=sortrows(T(T.zone_index==B.zone_index(j) & T.n_passages==n,:),'severity_pct');
+        plot(ax,q.severity_pct,100*q.detected_and_correctly_localised_rate, ...
+            'LineWidth',1.3,'Marker','o','DisplayName',char(B.zone_name(j)));
+    end
+    formatProbability(ax,n); title(ax,sprintf('%d accumulated passages',n));
+    if height(B)>0, legend(ax,'Location','southoutside','Interpreter','none'); end
+end
+title(layout,'Detected and correctly localised: all retained locations');
+saveFigure(f,fullfile(figures,'02_retained_localisation_probabilities'));
+
+if height(B)>0
+    f=newFigure(650*numel(windows),540); layout=tiledlayout(f,1,numel(windows));
+    for n=windows
+        ax=nexttile(layout); q=T(T.n_passages==n & T.severity_pct==10,:);
+        [ok,ix]=ismember(B.zone_index,q.zone_index); assert(all(ok)); q=q(ix,:);
+        accepted=q.detected_and_correctly_localised_trials;
+        wrong=q.detected_wrong_location_trials;
+        ungated=q.correctly_localised_without_detection_trials;
+        neither=q.total_trials-accepted-wrong-ungated;
+        bars=bar(ax,[accepted wrong ungated neither],'stacked');
+        shades=[.12 .40 .65 .88];
+        for k=1:4, bars(k).FaceColor=repmat(shades(k),1,3); end
+        xticks(ax,1:height(B)); xticklabels(ax,B.zone_name); xtickangle(ax,35);
+        ax.TickLabelInterpreter='none'; ylabel(ax,'Trial count'); grid(ax,'on');
+        title(ax,sprintf('10%% stiffness loss; %d passages',n));
+        legend(ax,{'Detected + correct','Detected + wrong','Correct, undetected','Neither'},'Location','southoutside');
+    end
+    saveFigure(f,fullfile(figures,'03_low_severity_trial_outcomes'));
+end
+
+% Probability plots for all locations, not only those passing retention.
+if plotAllLocations, locationIDs=Z.zone_index; else, locationIDs=B.zone_index; end
+for id=locationIDs(:).'
+    qz=Z(Z.zone_index==id,:); f=newFigure(640*numel(windows),480);
+    layout=tiledlayout(f,1,numel(windows));
+    for n=windows
+        ax=nexttile(layout); hold(ax,'on'); q=sortrows(T(T.zone_index==id & T.n_passages==n,:),'severity_pct');
+        names={'detection_rate','localisation_rate','detected_and_correctly_localised_rate'};
+        stems={'detected','correctly_localised','detected_and_correctly_localised'};
+        styles={'--s',':^','-o'}; labels={'Detection','Correct zone (ungated)','Detected + correct zone'};
+        for k=1:3
+            y=q.(names{k}); lo=q.([stems{k} '_wilson95_low']); hi=q.([stems{k} '_wilson95_high']);
+            errorbar(ax,q.severity_pct,100*y,100*max(0,y-lo),100*max(0,hi-y), ...
+                styles{k},'Color',repmat((k-1)*.28,1,3),'LineWidth',1.2,'DisplayName',labels{k});
+        end
+        formatProbability(ax,n); ax.FontSize=14;%legend(ax,'Location','southoutside');
+        title(ax,sprintf('%d passages | %s',n,q.feature(1)),'Interpreter','none');
+    end
+    legend(ax,'Orientation','horizontal','Location','southoutside','Box','off','FontSize',14);
+    title(layout,sprintf('%s: empirical probabilities with 95%% Wilson intervals',qz.zone_name),'Interpreter','none');
+    saveFigure(f,fullfile(perLocation,sprintf('zone_%02d_probabilities',id)));
+end
+% Probability plots for all locations, not only those passing retention.
+% if plotAllLocations, locationIDs=Z.zone_index; else, locationIDs=B.zone_index; end
+% for id=locationIDs(:).'
+%     qz=Z(Z.zone_index==id,:); f=newFigure(640*numel(windows),480);
+%     layout=tiledlayout(f,1,numel(windows),'TileSpacing','compact','Padding','compact');
+%     legendHandles=gobjects(3,1);
+%     for ii=1:numel(windows)
+%         n=windows(ii); ax=nexttile(layout); hold(ax,'on');
+%         q=sortrows(T(T.zone_index==id & T.n_passages==n,:),'severity_pct');
+%         names={'detection_rate','localisation_rate','detected_and_correctly_localised_rate'};
+%         stems={'detected','correctly_localised','detected_and_correctly_localised'};
+%         styles={'--s',':^','-o'}; labels={'Detection','Correct zone (ungated)','Detected + correct zone'};
+%         for k=1:3
+%             y=q.(names{k}); lo=q.([stems{k} '_wilson95_low']); hi=q.([stems{k} '_wilson95_high']);
+%             h=errorbar(ax,q.severity_pct,100*y,100*max(0,y-lo),100*max(0,hi-y), ...
+%                 styles{k},'Color',repmat((k-1)*.28,1,3),'LineWidth',1.2,'DisplayName',labels{k});
+%             if ii==1, legendHandles(k)=h; end
+%         end
+%         formatProbability(ax,n); ax.FontSize=14;
+%         title(ax,sprintf('%d passages | %s',n,q.feature(1)),'Interpreter','none','FontSize',14);
+%     end
+%     title(layout,sprintf('%s: empirical probabilities with 95%% Wilson intervals',qz.zone_name), ...
+%         'Interpreter','none','FontSize',14);
+%     lgd=legend(legendHandles,labels,'Orientation','horizontal','Location','southoutside','Box','off','FontSize',14);
+%     if isprop(lgd,'NumColumns'), lgd.NumColumns=3; end
+%     lgd.Layout.Tile='south';
+%     saveFigure(f,fullfile(perLocation,sprintf('zone_%02d_probabilities',id)));
+% end
+% 3-D spatial maps: accepted predictions only, denominator = all trials.
+% Bubble area is proportional to the fraction of all trials detecting and
+% selecting each candidate zone. Undetected events do not create bubbles.
+for j=1:height(B)
+    truth=B(j,:); qElements=zoneElements(R,truth.element_ids);
+    for n=windows
+        rows=sortrows(T(T.zone_index==truth.zone_index & T.n_passages==n,:),'loss');
+        source=fullfile(outputRoot,'trials',sprintf('%s_%dpass.mat',rows.feature(1),n));
+        d=load(source,'predictedAtom','detected','atomZone','atomLoss');
+        f=newFigure(1800,900); layout=tiledlayout(f,2,3,'TileSpacing','compact','Padding','compact');
+        for s=1:height(rows)
+            ax=nexttile(layout); drawBridge(ax,R,S); drawSegments(ax,qElements,'k',3);
+            a=find(d.atomZone(:)==truth.zone_index & abs(d.atomLoss(:)-rows.loss(s))<1e-9);
+            assert(numel(a)==1,'Missing or duplicate truth state in trial file.');
+            detected=d.detected(:,a); atom=double(d.predictedAtom(detected,a))+1;
+            predictedZones=d.atomZone(atom); counts=zeros(height(Z),1);
+            for k=1:height(Z), counts(k)=sum(predictedZones==Z.zone_index(k)); end
+            good=counts>0; fraction=counts/size(d.detected,1);
+            scatter3(ax,Z.x_m(good),Z.y_m(good),Z.z_m(good), ...
+                800*fraction(good),'o','MarkerEdgeColor','k','LineWidth',1.3);
+            plot3(ax,truth.x_m,truth.y_m,truth.z_m,'kx','MarkerSize',12,'LineWidth',2);
+            title(ax,sprintf('%d%% loss | %d/%d detected',rows.severity_pct(s),sum(detected),numel(detected)));
+        end
+        ax=nexttile(layout); axis(ax,'off');
+        text(ax,0,1,{'Bold members / x: prescribed damage zone', ...
+            'Red dots: available measured strain sensors', ...
+            'Open circles: detected zone predictions', ...
+            'Circle area: fraction of ALL trials', ...
+            'Coordinates: FE zone centroids', ...
+            'Same-model, semi-synthetic experiment'},'VerticalAlignment','top');
+        title(layout,sprintf('%s | %d passages | %s',truth.zone_name,n,rows.feature(1)),'Interpreter','none');
+        saveFigure(f,fullfile(spatial,sprintf('zone_%02d_%dpass_predictions',truth.zone_index,n)));
+    end
+end
+fprintf('Saved figures under %s\n',figures);
+end
+
+function f=newFigure(w,h)
+f=figure('Visible','off','Color','w','Position',[20 20 w h]);
+end
+
+function drawBridge(ax,R,S)
+hold(ax,'on'); drawSegments(ax,R,[.82 .82 .82],.35);
+xyz=unique(S{:,{'x_m','y_m','z_m'}},'rows');
+scatter3(ax,xyz(:,1),xyz(:,2),xyz(:,3),24,'r','filled');
+xlabel(ax,'x (m)'); ylabel(ax,'y (m)'); zlabel(ax,'z (m)');
+view(ax,[-58 21]); axis(ax,'tight'); daspect(ax,[1 1 1]); grid(ax,'on');
+end
+
+function drawSegments(ax,q,color,width)
+x=[q.x1_m q.x2_m nan(height(q),1)].';
+y=[q.y1_m q.y2_m nan(height(q),1)].';
+z=[q.z1_m q.z2_m nan(height(q),1)].';
+plot3(ax,x(:),y(:),z(:),'Color',color,'LineWidth',width);
+end
+
+function q=zoneElements(R,ids)
+q=R(ismember(R.elementID,str2double(split(string(ids),';'))),:);
+end
+
+function formatProbability(ax,n) %#ok<INUSD>
+xlabel(ax,'Local stiffness loss (%)'); ylabel(ax,'Empirical probability (%)');
+xlim(ax,[8 52]); xticks(ax,10:10:50); ylim(ax,[0 102]); grid(ax,'on');
+end
+
+function saveFigure(f,path)
+exportgraphics(f,[path '.png'],'Resolution',220);
+exportgraphics(f,[path '.pdf'],'ContentType','vector');
+close(f);
+end

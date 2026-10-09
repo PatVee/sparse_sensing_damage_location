@@ -1,0 +1,44 @@
+{
+  "created_utc": "2026-09-17T15:58:11Z",
+  "part1_zip": "C:\\Users\\cvvi\\Downloads\\traindata_201901_part1.zip",
+  "part2_zip": "C:\\Users\\cvvi\\Downloads\\traindata_201901_part2.zip",
+  "part1_sha256": "d844d65cb99a7d403a129aa5c17531b3eaa53658656f11caec8b666b717f7403",
+  "part2_sha256": "cffb10cd235a6ab792a2592203f01b5bf9ad495778996be6ad1616919ffa3276",
+  "fe_reference_file": "C:\\Users\\cvvi\\Downloads\\KW51_MATLAB_PACKAGE\\KW51_MATLAB_PACKAGE\\reference\\base_and_all_gauge_calibration.mat",
+  "fe_reference_sha256": "94ca77d8ec66e05ab40cac97613b99be6f0c45b7ab9c2fbcb4e119fffeded158",
+  "candidate_file": "C:\\Users\\cvvi\\Downloads\\KW51_MATLAB_PACKAGE\\KW51_MATLAB_PACKAGE\\reference\\candidate_regions.csv",
+  "n_unique_events": 62,
+  "n_active_strain_channels": 11,
+  "n_phase_samples": 128,
+  "n_physical_zones": 68,
+  "losses": [
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5
+  ],
+  "n_feature_families": 13,
+  "n_trials_per_state": 300,
+  "n_calibration_bootstraps": 2500,
+  "n_calibration_bootstraps_extended": 2000,
+  "passage_windows": [
+    16,
+    32
+  ],
+  "matlab_random_seed": 2.0260917E+7,
+  "minimum_joint_rate": 0.5,
+  "n_retained_locations": 5,
+  "sensor_policy": "11 measured strain channels; sgBD1718C excluded; no acceleration features in this final study.",
+  "response_class_note": "RMS-ratio response surrogate, not measured track metadata.",
+  "rng_note": "MATLAB twister differs from the earlier Python PCG64 stream. These CSVs contain fresh MATLAB results, not the previously reported counts.",
+  "validation_scope": "Exploratory semi-synthetic FE damage plus resampled healthy residuals.",
+  "independent_fit_cal_test_records": [
+    32,
+    14,
+    16
+  ],
+  "threshold_quantile": 0.95,
+  "covariance_diagonal_shrinkage": 0.05,
+  "selection_scope": "Frozen 68-zone shortlist; no new exhaustive 1603-element search."
+}

@@ -1,0 +1,14 @@
+feature,feature_label,n_features,feature_components
+strain_gram,Normalised strain Gram,66,66 signed normalised upper-triangular Gram terms
+rms_p2p_gram,RMS/P2P + normalised Gram,88,11 centred log-RMS + 11 centred log-P2P + 66 Gram terms
+area_rms_p2p,Signed area + RMS/P2P,33,11 normalised signed passage means + 22 RMS/P2P terms
+signed_dct16,Signed DCT16,176,16 orthonormal DCT coefficients for each of 11 gauges
+absolute_rms_p2p_gram,Absolute RMS/P2P + Gram,88,11 absolute log-RMS + 11 absolute log-P2P + 66 absolute Gram terms
+qr_hybrid_16,QR hybrid (16),16,16 pivoted-QR terms from RMS/P2P+Gram+DCT8
+qr_hybrid_24,QR hybrid (24),24,24 pivoted-QR terms from RMS/P2P+Gram+DCT8
+qr_hybrid_32,QR hybrid (32),32,32 pivoted-QR terms from RMS/P2P+Gram+DCT8
+qr_hybrid_48,QR hybrid (48),48,48 pivoted-QR terms from RMS/P2P+Gram+DCT8
+rms_p2p_gram_dct8,RMS/P2P + Gram + DCT8,176,88 RMS/P2P+Gram terms + 88 signed DCT8 terms
+strain_gram_dct16,Gram + DCT16,242,66 Gram terms + 176 signed DCT16 terms
+rms_p2p_gram_dct16,RMS/P2P + Gram + DCT16,264,88 RMS/P2P+Gram terms + 176 signed DCT16 terms
+area_gram_dct8,Area + Gram + DCT8,187,33 area/RMS/P2P terms + 66 Gram terms + 88 signed DCT8 terms

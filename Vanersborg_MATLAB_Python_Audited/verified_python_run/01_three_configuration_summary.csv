@@ -1,0 +1,4 @@
+configuration,physical_sensor_count,representation,threshold,detected_of_7,SG9_SG10_top_zone_of_7,joint_detect_and_localise_of_7,median_damage_score_over_threshold,documented_crack_detected,documented_crack_predicted_zone,pre_documentation_alerts_of_51
+Physical sensors only,12,12 measured gauges,45.157512991663886,7,7,7,4.557682844550989,True,Z05_SG9_SG10,12
+Reduced QR physical sensors,5,"SG11, SG3, SG1, SG13, SG10",40.768758253212134,2,7,2,0.39106061725913416,True,Z05_SG9_SG10,2
+QR references + virtual sensors,5,5 measured refs + 7 virtual gauges,15.896287099645935,7,7,7,3.105744549269367,True,Z05_SG9_SG10,4

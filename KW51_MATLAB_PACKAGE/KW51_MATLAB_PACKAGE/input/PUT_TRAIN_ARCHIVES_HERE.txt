@@ -1,0 +1,3 @@
+Place traindata_201901_part1.zip and traindata_201901_part2.zip here.
+Alternatively, RUN_KW51 will prompt you to select them in their current folder.
+There is no need to unzip them yourself.

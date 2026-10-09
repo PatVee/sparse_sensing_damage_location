@@ -1,0 +1,12 @@
+gauge_name,x_m,y_m,z_m,host_element_id,coordinate_basis
+sgBD1011A,33.574750,0.00,0.271900,101025,FE operator-node centroid
+sgBD1415A,49.307750,0.00,0.271900,101034,FE operator-node centroid
+sgBD1718A,60.274500,0.00,0.271900,101040,FE operator-node centroid
+sgBD2324AB,84.707750,0.00,0.271900,101054,FE operator-node centroid
+sgBD2324AT,84.707750,0.00,0.271900,101054,FE operator-node centroid
+sgBD2324C,84.707750,11.75,0.271900,102054,FE operator-node centroid
+sgBD2728A,100.266500,0.00,0.271900,101064,FE operator-node centroid
+sgDI20ALB,72.906850,0.00,9.251748,105017,FE operator-node centroid
+sgDI20ALL,72.906850,0.00,9.251748,105017,FE operator-node centroid
+sgDI23ALB,84.887376,0.00,8.096415,105011,FE operator-node centroid
+sgDI23ALL,84.887376,0.00,8.096415,105011,FE operator-node centroid

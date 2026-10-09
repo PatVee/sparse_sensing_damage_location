@@ -1,0 +1,25 @@
+configuration,zone,raw_score,normalized_score,inspection_truth
+Physical sensors only,Z01_SG1_SG2,6.755510784311987,0.06758128326819578,False
+Physical sensors only,Z02_SG3,0.16223113349924909,0.0016229399283017858,False
+Physical sensors only,Z03_SG7,1.685709189377252,0.016863623473100137,False
+Physical sensors only,Z04_SG8,2.678986437347747,0.026800244581726564,False
+Physical sensors only,Z05_SG9_SG10,99.96126823314079,1.0,True
+Physical sensors only,Z06_SG11,0.17434296125611357,0.001744105135295918,False
+Physical sensors only,Z07_SG13_SG14,0.5777979504114195,0.005780218284784211,False
+Physical sensors only,Z08_SG15_SG16,31.7513144045342,0.3176361701462236,False
+Reduced QR physical sensors,Z01_SG1_SG2,3.4658454093336375,0.04357569659364568,False
+Reduced QR physical sensors,Z02_SG3,0.16223113349924909,0.002039714360129437,False
+Reduced QR physical sensors,Z03_SG7,,,False
+Reduced QR physical sensors,Z04_SG8,,,False
+Reduced QR physical sensors,Z05_SG9_SG10,79.53620206358413,1.0,True
+Reduced QR physical sensors,Z06_SG11,0.17434296125611357,0.0021919950504644095,False
+Reduced QR physical sensors,Z07_SG13_SG14,1.618576927231743,0.020350191299526647,False
+Reduced QR physical sensors,Z08_SG15_SG16,,,False
+QR references + virtual sensors,Z01_SG1_SG2,8.541011487411705,0.15801132786449093,False
+QR references + virtual sensors,Z02_SG3,0.16223113349924909,0.003001325646612163,False
+QR references + virtual sensors,Z03_SG7,18.192079352636615,0.3365590386294416,False
+QR references + virtual sensors,Z04_SG8,32.46271500713107,0.6005701680560285,False
+QR references + virtual sensors,Z05_SG9_SG10,54.05315937055094,1.0,True
+QR references + virtual sensors,Z06_SG11,0.17434296125611357,0.0032253981688829558,False
+QR references + virtual sensors,Z07_SG13_SG14,4.156188421516233,0.07689075846657344,False
+QR references + virtual sensors,Z08_SG15_SG16,7.346957249740944,0.13592095883564004,False

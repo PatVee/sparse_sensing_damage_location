@@ -1,0 +1,120 @@
+{
+  "n_events": 64,
+  "aligned_samples_per_event": 256,
+  "usable_physical_gauges": [
+    1,
+    2,
+    3,
+    7,
+    8,
+    9,
+    10,
+    11,
+    13,
+    14,
+    15,
+    16
+  ],
+  "fit_files": [
+    "2023_02_20T03_10_53.csv",
+    "2023_02_20T03_17_23.csv",
+    "2023_02_20T19_17_06.csv"
+  ],
+  "calibration_files": [
+    "2023_02_20T20_35_06.csv",
+    "2023_02_21T07_54_28.csv",
+    "2023_02_21T08_13_01.csv"
+  ],
+  "documented_crack_file": "2023_03_09T23_45_25.csv",
+  "damage_test_files": [
+    "2023_03_09T23_45_25.csv",
+    "2023_03_10T08_34_30.csv",
+    "2023_03_10T17_37_28.csv",
+    "2023_03_10T20_51_26.csv",
+    "2023_03_11T16_36_25.csv",
+    "2023_03_11T17_53_02.csv",
+    "2023_03_11T18_34_51.csv"
+  ],
+  "truth_zone": "Z05_SG9_SG10",
+  "qr_energy_target": 0.999,
+  "qr_rank": 5,
+  "qr_reference_gauges": [
+    11,
+    3,
+    1,
+    13,
+    10
+  ],
+  "virtual_gauges": [
+    2,
+    7,
+    8,
+    9,
+    14,
+    15,
+    16
+  ],
+  "ridge_alpha": 0.01,
+  "virtual_validation_median_NRMSE": 0.015392169724888025,
+  "virtual_validation_median_correlation": 0.9990633434154461,
+  "virtual_validation_median_amplitude_ratio": 1.0008024074909323,
+  "primary_results": [
+    {
+      "configuration": "Physical sensors only",
+      "physical_sensor_count": 12,
+      "representation": "12 measured gauges",
+      "threshold": 45.157512991663886,
+      "detected_of_7": 7,
+      "SG9_SG10_top_zone_of_7": 7,
+      "joint_detect_and_localise_of_7": 7,
+      "median_damage_score_over_threshold": 4.557682844550989,
+      "documented_crack_detected": true,
+      "documented_crack_predicted_zone": "Z05_SG9_SG10",
+      "pre_documentation_alerts_of_51": 12
+    },
+    {
+      "configuration": "Reduced QR physical sensors",
+      "physical_sensor_count": 5,
+      "representation": "SG11, SG3, SG1, SG13, SG10",
+      "threshold": 40.768758253212134,
+      "detected_of_7": 2,
+      "SG9_SG10_top_zone_of_7": 7,
+      "joint_detect_and_localise_of_7": 2,
+      "median_damage_score_over_threshold": 0.39106061725913416,
+      "documented_crack_detected": true,
+      "documented_crack_predicted_zone": "Z05_SG9_SG10",
+      "pre_documentation_alerts_of_51": 2
+    },
+    {
+      "configuration": "QR references + virtual sensors",
+      "physical_sensor_count": 5,
+      "representation": "5 measured refs + 7 virtual gauges",
+      "threshold": 15.896287099645935,
+      "detected_of_7": 7,
+      "SG9_SG10_top_zone_of_7": 7,
+      "joint_detect_and_localise_of_7": 7,
+      "median_damage_score_over_threshold": 3.105744549269367,
+      "documented_crack_detected": true,
+      "documented_crack_predicted_zone": "Z05_SG9_SG10",
+      "pre_documentation_alerts_of_51": 4
+    }
+  ],
+  "split_sensitivity_joint_counts": {
+    "Physical sensors only": {
+      "min": 0.0,
+      "median": 6.0,
+      "max": 7.0
+    },
+    "QR references + virtual sensors": {
+      "min": 0.0,
+      "median": 4.5,
+      "max": 7.0
+    },
+    "Reduced QR physical sensors": {
+      "min": 0.0,
+      "median": 5.0,
+      "max": 7.0
+    }
+  },
+  "interpretation": "The virtual channels are historically calibrated data-driven reconstructions from the QR-selected physical gauges. They are not FE-generated sensors and are not independent measurements."
+}
